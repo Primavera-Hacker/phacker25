@@ -36,7 +36,6 @@ npm run build
 **TODO:**
 
 -⁠ ⁠Feature: add dog model
--⁠ ⁠Feature: close menu on redirect from logo nav mobile
 -⁠ ⁠Bug: Layout fechas importantes mobile
 -⁠ ⁠Bug: onreload 404
 -⁠ ⁠UX enhance: Sacar phacker25 cuando se abre navmobile

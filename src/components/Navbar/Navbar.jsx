@@ -66,7 +66,10 @@ const Nav = () => {
           {!isHome && (
             <button
               className={css.logoMobile}
-              onClick={() => navigate(paths.home)}
+              onClick={() => {
+                setMenuOpen(false);
+                navigate(paths.home);
+              }}
             >
               <LogoPHacker25 />
             </button>
