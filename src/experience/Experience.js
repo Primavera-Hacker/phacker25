@@ -95,5 +95,9 @@ export default class Experience {
     if (this.debug.active) {
       this.debug.ui.destroy();
     }
+
+    // Reset singleton instance
+    instance = null;
+    window.experience = null;
   }
 }
