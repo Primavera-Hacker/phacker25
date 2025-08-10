@@ -36,6 +36,5 @@ npm run build
 **TODO:**
 
 -⁠ ⁠Feature: add dog model
--⁠ ⁠Bug: Layout fechas importantes mobile
 -⁠ ⁠Bug: onreload 404
 -⁠ ⁠UX enhance: pausar three on menu open
