@@ -1,16 +1,24 @@
 import cn from "classnames";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { paths } from "../Router/routes";
 
 import css from "./Navbar.module.css";
 import { LogoPrimaveraHacker } from "../Logos";
 
 const MobileMenuDrawer = ({ isOpen, closeDrawer }) => {
+  const navigate = useNavigate();
   if (!isOpen) return null;
   return (
     <div className={css.drawer}>
       <div className={css.drawerMenu}>
-        <LogoPrimaveraHacker />
+        <button
+          onClick={() => {
+            navigate(paths.home);
+            closeDrawer();
+          }}
+        >
+          <LogoPrimaveraHacker />
+        </button>
         <Link
           onClick={closeDrawer}
           to={paths.evento}

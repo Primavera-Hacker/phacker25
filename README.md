@@ -38,5 +38,4 @@ npm run build
 -⁠ ⁠Feature: add dog model
 -⁠ ⁠Bug: Layout fechas importantes mobile
 -⁠ ⁠Bug: onreload 404
--⁠ ⁠UX enhance: Sacar phacker25 cuando se abre navmobile
 -⁠ ⁠UX enhance: pausar three on menu open
