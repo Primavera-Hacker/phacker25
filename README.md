@@ -32,3 +32,11 @@ npm run build
 ## Créditos
 
 **3D Experience**: [@armdz](https://github.com/armdz)
+
+**TODO:**
+
+- [ ] Redirect logo nav mobile
+- [ ] Bug: Layout fechas importantes mobile
+- [ ] Bug: onreload 404
+- [ ] Sacar phacker25 cuando se abre navmobile
+- [ ] nice to have pausar exp on menu open
