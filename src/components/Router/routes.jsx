@@ -47,7 +47,11 @@ export const routes = [
     component: <Conducta />,
     meta: { title: "PHACKER:25 | Conducta", description: "" },
   },
-  { path: "*", element: NotFound, meta: { title: "PHACKER:25 | NotFound" } },
+  {
+    path: "*",
+    component: <NotFound />,
+    meta: { title: "PHACKER:25 | NotFound" },
+  },
 ];
 
 export const DEFAULT_META_DESCRIPTION = `
