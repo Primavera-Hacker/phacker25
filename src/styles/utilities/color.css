@@ -1,0 +1,30 @@
+.bgGrey200 {
+  background-color: rgb(var(--base-color-grey-200));
+}
+.bgGrey300 {
+  background-color: rgb(var(--base-color-grey-300));
+}
+.bgGrey700 {
+  background-color: rgb(var(--base-color-grey-700));
+}
+.bgGrey800 {
+  background-color: rgb(var(--base-color-grey-800));
+}
+.bgGrey900 {
+  background-color: rgb(var(--base-color-grey-900));
+}
+.bgRed {
+  background-color: rgb(var(--base-color-red));
+}
+.bgPink {
+  background-color: rgb(var(--base-color-pink));
+}
+.bgGreen {
+  background-color: rgb(var(--base-color-green));
+}
+.bgPinkLines {
+  background-image: var(--color-background-lines-pink);
+}
+.bgGreenLines {
+  background-image: var(--color-background-lines-green);
+}

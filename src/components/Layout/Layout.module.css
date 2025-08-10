@@ -1,0 +1,19 @@
+.main {
+  padding-top: calc(
+    var(--element-height-sobremenu) + var(--element-height-menu) +
+      var(--element-padding-y-main)
+  );
+  padding-bottom: cacl(
+    var(--element-height-footer) + var(--element-padding-y-main)
+  );
+  padding-right: var(--element-padding-x-main);
+  padding-left: var(--element-padding-x-main);
+}
+
+@media (max-width: 680px) {
+  .main {
+    padding-top: calc(
+      var(--element-height-menu) + var(--element-padding-y-main)
+    );
+  }
+}

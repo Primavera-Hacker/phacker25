@@ -1,0 +1,35 @@
+.irButton {
+  margin-bottom: var(--space-m);
+  text-decoration: underline;
+}
+
+.irButton:hover {
+  color: rgb(var(--base-color-red));
+}
+
+.fechasWrapper {
+  width: 100%;
+  display: flex;
+  gap: var(--space-xl);
+}
+
+.fechasTitle {
+  white-space: nowrap;
+}
+
+.fechas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.fechaItem {
+  width: 100%;
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px dashed;
+}
+
+.fechaItem:last-child {
+  border-bottom: 0;
+}

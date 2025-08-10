@@ -1,0 +1,21 @@
+:root {
+  --dvh: 100vh;
+  --font-mono: "Red Hat Mono", monospace;
+}
+
+body {
+  background: var(--color-background-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  font-size: var(--text-m);
+}
+
+.bottom-blank {
+  height: 100px;
+}
+
+.page-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 680px;
+}

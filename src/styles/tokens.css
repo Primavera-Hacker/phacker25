@@ -1,0 +1,122 @@
+:root {
+  /* Base Colors */
+  --base-color-white: 255 255 253;
+  --base-color-grey-100: 218 218 226; /* DADAE2 */
+  --base-color-grey-200: 197 197 204; /* C5C5CC */
+  --base-color-grey-300: 175 175 181; /* AFAFB5 */
+  --base-color-grey-400: 153 153 159; /* 99999F */
+  --base-color-grey-500: 132 132 136; /* 848488 */
+  --base-color-grey-600: 88 88 91; /* 58585B */
+  --base-color-grey-700: 67 67 68; /* 434344 */
+  --base-color-grey-800: 45 45 46; /* 2D2D2E */
+  --base-color-grey-900: 23 23 23; /* 171717 */
+  --base-color-green: 180 255 0; /* B4FF00 */
+  --base-color-red: 255 0 77; /* FF004D */
+  --base-color-pink: 255 0 251; /* FF00FB */
+
+  /* Colors — Text */
+  --color-text-primary: rgb(var(--base-color-grey-900));
+  --color-text-invert: rgb(var(--base-color-white));
+  --color-text-disabled: rgba(var(--base-color-grey-900), 0.5);
+
+  /* Colors — Background */
+  --color-background-primary: rgb(var(--base-color-white));
+  --color-background-invert: rgb(var(--base-color-grey-900));
+  --color-background-green: rgb(var(--base-color-green));
+  --color-background-red: rgb(var(--base-color-red));
+  --color-background-pink: rgb(var(--base-color-pink));
+  --color-background-lines-green: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'40'%20height%3D'4'%20viewBox%3D'0%200%2040%204'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'40'%20height%3D'2'%20fill%3D'rgb(180%2C255%2C0)'%20%2F%3E%3C%2Fsvg%3E");
+  --color-background-lines-red: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'40'%20height%3D'4'%20viewBox%3D'0%200%2040%204'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'40'%20height%3D'2'%20fill%3D'rgb(255%2C0%2C77)'%20%2F%3E%3C%2Fsvg%3E");
+  --color-background-lines-pink: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'40'%20height%3D'4'%20viewBox%3D'0%200%2040%204'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'40'%20height%3D'2'%20fill%3D'rgb(255%2C0%2C251)'%20%2F%3E%3C%2Fsvg%3E");
+
+  /* Container Sizes */
+  --container-width-xs: 480px;
+  --container-width-s: 640px;
+  --container-width-m: 960px;
+  --container-width-l: 1400px;
+  --container-width-xl: 1600px;
+
+  /* Spacing */
+  --space-4xs: 4px;
+  --space-3xs: 6px;
+  --space-2xs: 8px;
+  --space-xs: 12px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 128px;
+
+  /* Text Sizes */
+  --text-4xl: 52px;
+  --text-3xl: 44px;
+  --text-2xl: 32px;
+  --text-xl: 20px;
+  --text-l: 18px;
+  --text-m: 16px;
+  --text-s: 14px;
+  --text-xs: 12px;
+  --text-2xs: 10px;
+
+  /* Letter Spacing */
+  --letter-spacing-loose: 0.05em;
+  --letter-spacing-widest: 0.025em;
+  --letter-spacing-wider: 0.015em;
+  --letter-spacing-wide: 0.0005em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-tight: -0.0005em;
+  --letter-spacing-tighter: -0.005em;
+  --letter-spacing-tightest: -0.01em;
+
+  /* Line Heights */
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.75;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Border Radius*/
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --radius-l: 24px;
+  --radius-xl: 32px;
+
+  /* Transitions */
+  --transition-easing-default: ease-in-out;
+  --transition-default-duration: 200ms;
+  --transition-fast-duration: 100ms;
+  --transition-slightly-slow-duration: 300ms;
+  --transition-slow-duration: 400ms;
+  --transition-default: var(--transition-default-duration)
+    var(--transition-easing-default);
+  --transition-fast: var(--transition-fast-duration)
+    var(--transition-easing-default);
+  --transition-slightly-slow: var(--transition-slightly-slow-duration)
+    var(--transition-easing-default);
+  --transition-slow: var(--transition-slow-duration)
+    var(--transition-easing-default);
+
+  /* Breakpoints */
+  --xsmall: 400px;
+  --small: 680px;
+  --medium: 960px;
+  --large: 1200px;
+  --xlarge: 1550px;
+  --max: 1920px;
+
+  /* Element fixed heights */
+  --element-height-sobremenu: 16px;
+  --element-height-menu: 28px;
+  --element-height-footer: 28px;
+  --element-padding-y-main: var(--space-3xs);
+  --element-padding-x-main: var(--space-3xs);
+}

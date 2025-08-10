@@ -1,0 +1,15 @@
+.root {
+  --dvh-full: calc(var(--dvh) * 100);
+  --top-menu-height: calc(
+    var(--element-height-sobremenu) + var(--element-height-menu)
+  );
+  --paddings-y: calc(var(--element-padding-y-main) * 2);
+
+  height: calc(
+    var(--dvh-full) - var(--top-menu-height) - var(--element-padding-y-main) -
+      var(--paddings-y) - var(--element-height-footer)
+  );
+  display: grid;
+  gap: var(--space-2xs);
+  grid-template-rows: max-content minmax(300px, 1fr);
+}

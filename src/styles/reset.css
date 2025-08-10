@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:where(body, h1, h2, h3, h4, p, figure, blockquote, dl, dd) {
+  margin: 0;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p) {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+:where(html:focus-within) {
+  scroll-behavior: smooth;
+}
+
+:where(button) {
+  all: unset;
+  cursor: pointer;
+}
+
+::-webkit-file-upload-button {
+  appearance: button;
+  font: inherit;
+}
+
+::input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+:where(textarea) {
+  margin: 0;
+  resize: vertical;
+}
+
+:where(svg:not([fill])) {
+  fill: currentcolor;
+}
+
+:where(small) {
+  font-size: 80%;
+}
+
+:where(b, strong) {
+  font-weight: bolder;
+}
+
+:where(ol, ul) {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+:where(dl, ol, ul) :where(dl, ol, ul) {
+  margin: 0;
+}
+
+:where(a) {
+  color: inherit;
+  text-decoration: inherit;
+}
