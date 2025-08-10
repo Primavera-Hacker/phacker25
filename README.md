@@ -1,12 +1,34 @@
-# React + Vite
+# PHACKER:25
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web oficial para Primavera Hacker 2025 - Encuentro anual de pensamiento crítico, tecnologías libres y prácticas hacker en Santiago de Chile.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React + Vite
+- **3D Experience**: Three.js
+- **Routing**: React Router
+- **Styling**: CSS Modules
 
-## Expanding the ESLint configuration
+## Desarrollo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
+```
+
+## Estructura del Proyecto
+
+- `/src/pages/` - Páginas de la aplicación
+- `/src/components/` - Componentes reutilizables
+- `/src/experience/` - Sistema 3D con Three.js
+- `/public/` - Contenido estático y textos
+
+## Créditos
+
+**3D Experience**: [@armdz](https://github.com/armdz)
