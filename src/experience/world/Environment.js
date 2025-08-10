@@ -1,4 +1,4 @@
-import * as THREE from "three/webgpu";
+import * as THREE from "three";
 import Experience from "../Experience";
 // import { SkyMesh } from "three/examples/jsm/objects/SkyMesh.js";
 // import * as SunCalc from "suncalc";

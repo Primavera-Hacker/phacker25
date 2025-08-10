@@ -1,31 +1,30 @@
 import EventEmitter from "./EventEmitter";
+import getCanvasSize from "./getCanvasSize";
 
-export default class Sizes extends EventEmitter
-{
-    constructor()
-    {
-        super();
-        this.width = window.innerWidth;
-        this.height = window.innerHeight;
-        this.pixelRatio = Math.min(window.devicePixelRatio,1);
-        
-        this.resize_callback = () => {
-            this.resize();
-        }
-        
-        window.addEventListener("resize", this.resize_callback);
-    }
+export default class Sizes extends EventEmitter {
+  constructor() {
+    super();
+    const { canvasWidth, canvasHeight } = getCanvasSize();
+    this.width = canvasWidth;
+    this.height = canvasHeight;
+    this.pixelRatio = Math.min(window.devicePixelRatio, 1);
 
-    resize()
-    {
-        this.width = window.innerWidth;
-        this.height = window.innerHeight;
-     //   this.pixelRatio = Math.min(window.devicePixelRatio,1);
-        this.trigger("resize");
-    }
+    this.resize_callback = () => {
+      this.resize();
+    };
 
-    destroy()
-    {
-        window.removeEventListener("resize",this.resize_callback);
-    }
+    window.addEventListener("resize", this.resize_callback);
+  }
+
+  resize() {
+    const { canvasWidth, canvasHeight } = getCanvasSize();
+    this.width = canvasWidth;
+    this.height = canvasHeight;
+    //   this.pixelRatio = Math.min(window.devicePixelRatio,1);
+    this.trigger("resize");
+  }
+
+  destroy() {
+    window.removeEventListener("resize", this.resize_callback);
+  }
 }
