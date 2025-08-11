@@ -15,7 +15,7 @@ const Nav = () => {
       </div>
       <div className={css.links}>
         <Link to={paths.conducta} className={cn(css.link, "text-eyebrow")}>
-          CONDIGO DE CONDUCTA
+          CODIGO DE CONDUCTA
         </Link>{" "}
         <a href="#" className={cn(css.link, "text-eyebrow")}>
           ARCHIVO PHACKER
