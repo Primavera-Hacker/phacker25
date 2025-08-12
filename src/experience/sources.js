@@ -13,6 +13,11 @@ export default [
         name:"manifiesto",
         type:"texture",
         path:"textures/manifiesto_3x.png"
+    },
+    {
+        name:"perrito",
+        type:"gltf",
+        path:"models/perrito_1.glb"
     }
 ]
 

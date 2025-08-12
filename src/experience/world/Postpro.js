@@ -70,26 +70,6 @@ export default class Postpro {
 
     this.composer.outputNode = pglitch.add(no);
 
-    if (this.debug.active) {
-      const ui = this.debug.ui;
-      const bloom_folder = ui.addFolder("bloom");
-      bloom_folder
-        .add(this.passes.bloom.threshold, "value", 0.0, 1.0)
-        .name("Threshold");
-      bloom_folder
-        .add(this.passes.bloom.radius, "value", 0.0, 1.0)
-        .name("Radius");
-      bloom_folder
-        .add(this.passes.bloom.strength, "value", 0.0, 3.0)
-        .name("Rtrength");
-
-      const dof_folder = ui.addFolder("dof");
-      dof_folder.open();
-      dof_folder.add(this.passes.dof.focus, "value", 0.0, 300.0).name("focus");
-      dof_folder
-        .add(this.passes.dof.aperture, "value", 0.0, 10.0)
-        .name("aperture");
-    }
   }
 
   render() {

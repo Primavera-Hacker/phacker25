@@ -1,5 +1,6 @@
-import * as THREE from "three";
+import * as THREE from "three/webgpu";
 import Experience from "../Experience";
+import { RoomEnvironment } from "three/examples/jsm/Addons.js";
 // import { SkyMesh } from "three/examples/jsm/objects/SkyMesh.js";
 // import * as SunCalc from "suncalc";
 // import { MathUtils } from "three";
@@ -44,6 +45,12 @@ export default class Environment {
       enviroment_folder.open();
       enviroment_folder.add(this.scene, "environmentIntensity", 0, 10, 0.01);
     }
+  
+      const pmrem_generator = new THREE.PMREMGenerator(this.renderer);
+      this.scene.environment =  pmrem_generator.fromScene(new RoomEnvironment(), 0.04).texture;
+      this.scene.environmentIntensity = 0.3
+
+
 
     /*
         this.enviromentMap = {};

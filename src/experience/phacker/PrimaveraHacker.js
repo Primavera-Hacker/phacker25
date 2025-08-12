@@ -42,6 +42,7 @@ import { hash } from "three/tsl";
 import { RepeatWrapping } from "three";
 // import Raycast from "../utils/RayCast";
 import CameraController from "./CameraController";
+import Perrito from "./Perrito";
 
 export default class PrimaveraHacker {
   constructor() {
@@ -125,6 +126,8 @@ export default class PrimaveraHacker {
     floor_instance.castShadow = true;
     floor_instance.receiveShadow = true;
     this.scene.add(floor_instance);
+
+    const perrito = new Perrito();
 
     //  manifiesto
 

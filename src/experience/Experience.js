@@ -75,6 +75,7 @@ export default class Experience {
   }
 
   destroy() {
+    /*
     this.sizes.off("resize");
     this.time.off("tick");
     this.time.destroy();
@@ -98,6 +99,6 @@ export default class Experience {
 
     // Reset singleton instance
     instance = null;
-    window.experience = null;
+    window.experience = null;*/
   }
 }
