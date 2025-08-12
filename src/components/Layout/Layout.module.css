@@ -10,6 +10,15 @@
   padding-left: var(--element-padding-x-main);
 }
 
+.main[data-full="true"] {
+  padding-top: calc(
+    var(--element-height-sobremenu) + var(--element-height-menu)
+  );
+  padding-bottom: var(--element-height-footer);
+  padding-right: 0;
+  padding-left: 0;
+}
+
 @media (max-width: 680px) {
   .main {
     padding-top: calc(

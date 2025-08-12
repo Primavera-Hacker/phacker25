@@ -1,14 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "../Layout/Layout";
-import { routes } from "./routes";
+import { paths, routes } from "./routes";
 import Meta from "../Meta";
 
 const Router = () => (
   <Routes>
-    <Route element={<Layout />}>
-      {routes.map((route) => (
+    {routes.map((route) => (
+      <Route
+        key={route.path}
+        element={<Layout noPadding={route.path === paths.home} />}
+      >
         <Route
-          key={route.path}
           path={route.path}
           index={route.index}
           element={
@@ -18,8 +20,8 @@ const Router = () => (
             </>
           }
         />
-      ))}
-    </Route>
+      </Route>
+    ))}
   </Routes>
 );
 
