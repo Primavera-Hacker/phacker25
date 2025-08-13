@@ -5,16 +5,6 @@ export default [
         path:"textures/ascii.png"
     },
     {
-        name:"logo",
-        type:"texture",
-        path:"textures/logo.png"
-    },
-    {
-        name:"manifiesto",
-        type:"texture",
-        path:"textures/manifiesto_3x.png"
-    },
-    {
         name:"perrito",
         type:"gltf",
         path:"models/perrito_1.glb"

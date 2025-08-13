@@ -68,7 +68,7 @@ export default class Postpro {
 
     const no = mx_noise_float(uv().mul(this.sizes.width), 0.01);
 
-    this.composer.outputNode = pglitch.add(no);
+    this.composer.outputNode = pglitch.add(no)//scene_pass.add(this.passes.bloom)//pglitch.add(no);
 
   }
 

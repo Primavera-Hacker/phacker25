@@ -19,9 +19,19 @@ export default class Perrito
      
         instance.material.transparent = true;
         instance.material.needsUpdate = true;
-        instance.position.x-=5;
+        const scale = 2;
+        instance.position.x-=scale;
         instance.position.z-=1;
-        instance.scale.multiplyScalar(5.0)
+        instance.position.y = 1.0;
+        instance.scale.multiplyScalar(scale)
+
+        instance.renderOrder = 1;
+
+
+
+
+
+
 
 
         scene.add(instance);

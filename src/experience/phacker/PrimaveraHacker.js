@@ -43,6 +43,7 @@ import { RepeatWrapping } from "three";
 // import Raycast from "../utils/RayCast";
 import CameraController from "./CameraController";
 import Perrito from "./Perrito";
+import RoundedMask from "./RoundedMask";
 
 export default class PrimaveraHacker {
   constructor() {
@@ -128,6 +129,8 @@ export default class PrimaveraHacker {
     this.scene.add(floor_instance);
 
     const perrito = new Perrito();
+
+    const rounded_mask = new RoundedMask();
 
     //  manifiesto
 

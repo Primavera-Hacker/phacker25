@@ -22,7 +22,6 @@ export default class Renderer extends EventEmitter{
 
     setInstanceWebGPU()
     {
-        THREE.RectAreaLightNode.setLTC( RectAreaLightTexturesLib.init() );
 
         this.instance = new THREE.WebGPURenderer({
             canvas:this.canvas,
