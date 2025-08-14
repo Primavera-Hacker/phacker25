@@ -7,7 +7,7 @@ export default [
     {
         name:"perrito",
         type:"gltf",
-        path:"models/perrito_1.glb"
+        path:"models/perritonuevo.glb"
     }
 ]
 

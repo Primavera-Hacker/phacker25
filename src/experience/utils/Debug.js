@@ -6,7 +6,7 @@ export default class Debug
 {
     constructor()
     {
-        this.active = false;
+        this.active = true;
 
         if(this.active)
         {
@@ -27,7 +27,7 @@ export default class Debug
                 mode: 0
             });
             
-          //  document.body.appendChild( this.stats.dom );
+           document.body.appendChild( this.stats.dom );
         }
        
     }

@@ -1,5 +1,6 @@
 import Experience from "../Experience";
 import * as THREE from "three/webgpu";
+import { WiggleBone } from "wiggle";
 
 export default class Perrito
 {
@@ -14,20 +15,36 @@ export default class Perrito
         const perrito_model = this.experience.resources.items.perrito;
         const scene = this.experience.scene;
 
-        const instance = perrito_model.scene.children[0].children[0];
-
+        const instance = perrito_model.scene.children[0];
+        const material = instance.children[0].material;
      
-        instance.material.transparent = true;
-        instance.material.needsUpdate = true;
-        const scale = 2;
-        instance.position.x-=scale;
-        instance.position.z-=1;
-        instance.position.y = 1.0;
+        material.transparent = true;
+        material.needsUpdate = true;
+
+        
+
+        const scale = 3;
+        instance.position.x-=scale*.25;
+        instance.position.y = 3.0;
         instance.scale.multiplyScalar(scale)
 
-        instance.renderOrder = 1;
+        instance.children[0].renderOrder = 1;
 
+        const mesh = instance.children[0]
+        let rootBone;
+        const wiggleBones = [];
+        mesh.skeleton.bones.forEach((bone) => {
+            if (!bone.parent.isBone) {
+            rootBone = bone;
+            } else {
+            const wiggleBone = new WiggleBone(bone, {
+                velocity: 0.5,
+            });
+            wiggleBones.push(wiggleBone);
+            }
+        });
 
+        console.log(rootBone)
 
 
 
@@ -35,6 +52,16 @@ export default class Perrito
 
 
         scene.add(instance);
+
+        const time = this.experience.time;
+        
+        time.on("tick",()=>{
+            const elapsed = this.experience.time.elapsed;
+            rootBone.position.y = Math.sin(elapsed*0.1)*10.0;
+            wiggleBones.forEach((wiggleBone) => {
+                wiggleBone.update();
+            });
+        });
 
 
     }
