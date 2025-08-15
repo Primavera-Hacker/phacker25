@@ -30,8 +30,8 @@ export default class Environment {
 
     this.scene.add(directiona_light);
 
-    this.scene.fog = new THREE.FogExp2(new THREE.Color("red"), 0.018);
-    this.scene.background = this.scene.fog.color;
+   // this.scene.fog = new THREE.FogExp2(new THREE.Color("red"), 0.018);
+    this.scene.background = new THREE.Color("red");
 
     if (this.debug.active) {
       const folder = this.debug.ui.addFolder("Directional Light");

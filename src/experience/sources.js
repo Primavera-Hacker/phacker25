@@ -7,7 +7,13 @@ export default [
     {
         name:"perrito",
         type:"gltf",
-        path:"models/perritonuevo.glb"
+        path:"models/perrito_r.glb"
+    },
+    {
+        name:"logo",
+        type:"texture",
+        path:"textures/logo.png"
     }
 ]
+
 
