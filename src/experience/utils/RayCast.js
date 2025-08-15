@@ -24,10 +24,9 @@ export default class Raycast extends EventEmitter
 
             const intersects = ray_cast.intersectObjects(this.scene.children);
             intersects.map((inter)=>{
-
+               
                 if(inter.object.userData.name == undefined)
                 {
-                    
                     if(this.obj_dict[inter.object.uuid])
                     {
                         this.trigger("hit",[{
@@ -49,6 +48,7 @@ export default class Raycast extends EventEmitter
     register(_obj)
     {
         this.obj_dict[_obj.uuid] = _obj;
+        console.log(_obj.uuid)
     }
 
     unregister(_obj)
