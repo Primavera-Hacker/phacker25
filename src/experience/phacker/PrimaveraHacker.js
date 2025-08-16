@@ -129,6 +129,7 @@ export default class PrimaveraHacker {
     this.scene.add(floor_instance);
 
     const perrito = new Perrito();
+    this.perrito = perrito;
 
     const rounded_mask = new RoundedMask();
 
@@ -142,7 +143,7 @@ export default class PrimaveraHacker {
 
     //     });
 
-    const count = 5000;
+    const count = 2000;
 
     const positions = [];
 

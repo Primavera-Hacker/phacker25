@@ -7,7 +7,7 @@ export default class Sizes extends EventEmitter {
     const { canvasWidth, canvasHeight } = getCanvasSize();
     this.width = canvasWidth;
     this.height = canvasHeight;
-    this.pixelRatio = Math.min(window.devicePixelRatio, 1.0);
+    this.pixelRatio = Math.min(window.devicePixelRatio, 1);
 
     this.resize_callback = () => {
       this.resize();

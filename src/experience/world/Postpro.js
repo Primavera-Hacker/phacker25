@@ -57,18 +57,21 @@ export default class Postpro {
     this.passes.scene = pass(this.scene, this.camera.instance);
     const scene_pass = this.passes.scene;
 
-    this.passes.bloom = bloom(scene_pass, 0.6, 0.2, 0.4);
+    this.passes.bloom = bloom(scene_pass, 0.2, 0.2, 0.4);
     this.passes.bloom.params = {
       threshold: 0.02,
     };
 
-    const pglitch = afterImage(scene_pass.add(this.passes.bloom), 1.0);
+    const pglitch = afterImage(scene_pass, 1.0);
 
     this.glitch = pglitch;
 
     const no = mx_noise_float(uv().mul(this.sizes.width), 0.01);
 
-    this.composer.outputNode = pglitch.add(no)//scene_pass.add(this.passes.bloom)//pglitch.add(no);
+    this.composer.outputNode = pglitch//scene_pass.add(this.passes.bloom)//pglitch.add(no);
+
+
+  
 
   }
 
