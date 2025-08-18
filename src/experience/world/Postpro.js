@@ -62,7 +62,9 @@ export default class Postpro {
       threshold: 0.02,
     };
 
-    const pglitch = afterImage(scene_pass, 1.0);
+    const pass_with_bloom = scene_pass.add(this.passes.bloom);
+
+    const pglitch = afterImage(pass_with_bloom, 1.0);
 
     this.glitch = pglitch;
 

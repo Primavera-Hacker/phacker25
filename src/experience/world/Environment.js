@@ -30,7 +30,7 @@ export default class Environment {
 
     this.scene.add(directiona_light);
 
-    this.scene.fog = new THREE.FogExp2(new THREE.Color("red"), 0.018);
+    this.scene.fog = new THREE.FogExp2(new THREE.Color("red"), 0.005);
     this.scene.background = new THREE.Color("red");
 
     if (this.debug.active) {
@@ -47,21 +47,7 @@ export default class Environment {
     }
   
       const pmrem_generator = new THREE.PMREMGenerator(this.renderer);
-      this.scene.environment =  pmrem_generator.fromScene(new RoomEnvironment(), 0.04).texture;
+      this.scene.environment =  pmrem_generator.fromScene(new RoomEnvironment(), 0.2).texture;
       this.scene.environmentIntensity = 0.3
-
-
-
-    /*
-        this.enviromentMap = {};
-        this.enviromentMap.intensity = 0.3;
-        this.enviromentMap.texture = this.resources.items.rocky_env;
-        
-     
-        this.resources.items.rocky_env.colorSpace = THREE.LinearSRGBColorSpace;
-
-        this.scene.environmentIntensity = this.enviromentMap.intensity;
-        this.scene.environment = this.resources.items.rocky_env;*/
-    //    this.scene.background = this.resources.items.rocky_env;
   }
 }

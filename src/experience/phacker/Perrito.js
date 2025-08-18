@@ -24,7 +24,7 @@ export default class Perrito
      
         material.transparent = true;
         material.needsUpdate = true;
-
+        material.roughness = 0.01;
         
 
         const scale = 3;

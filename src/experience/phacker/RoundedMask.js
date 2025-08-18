@@ -158,15 +158,19 @@ export default class RoundedMask
 
             let HOLE_W = W*.99;
             let RADIUS = size.width*0.018;
+            const _aspect = this.experience.sizes.width / this.experience.sizes.height ;
+
 
             const x = (W - HOLE_W) / 2;
             const extra = img_h*0.02;
             const y = img_h+extra;
             const resta = y-img_h;
-            let HOLE_H = (size.height-y)*.99;
+            let HOLE_H = Math.abs(((size.height)-y)-extra);
+
+
 
             
-            const _aspect = this.experience.sizes.width / this.experience.sizes.height ;
+
             const path = roundedRectPath(x, y, HOLE_W, HOLE_H, RADIUS);
         
             ctx.save();
@@ -193,7 +197,7 @@ export default class RoundedMask
 
 
 
-        dibujar_mascara();
+       // 
 
         scene.add(_instance);
  
@@ -204,7 +208,8 @@ export default class RoundedMask
             dibujar_mascara();
 
         });
-
+        
+        dibujar_mascara();
 
 
 
