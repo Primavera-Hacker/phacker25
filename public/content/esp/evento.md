@@ -6,7 +6,7 @@ Este año, bajo el lema **Crónicamente Online**, nos preguntamos por el present
 
 ## **Ejes temáticos**
 
-Primavera Hacker organiza sus contenidos en ejes curatoriales. Al enviar tu propuesta, elige el que mejor se relacione con tu tema:
+Primavera Hacker organiza sus contenidos en ejes curatoriales. 
 
 ### **Arte y estética computacional**
 

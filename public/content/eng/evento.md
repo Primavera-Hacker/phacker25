@@ -6,7 +6,7 @@ This year, under the motto **Chronically Online**, we ask about the digital pres
 
 ## **Thematic Axes**
 
-Primavera Hacker organizes its contents around curatorial axes. When submitting your proposal, choose the one that best relates to your topic:
+Primavera Hacker organizes its contents around curatorial axes. 
 
 ### **Computational Art and Aesthetics**
 

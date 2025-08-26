@@ -1,77 +1,80 @@
-Primavera Hacker is an annual gathering of critical thinking, free technologies, and hacker practices, held in Santiago, Chile since 2013.
+Primavera Hacker es un encuentro anual de pensamiento crítico, tecnologías libres y prácticas hacker, que se celebra en Santiago de Chile desde 2013.
 
-Over two days of workshops, talks, and collective experiments, we come together to share knowledge, inhabit our own networks, break infrastructure, and imagine futures where technology serves autonomy and radical imagination.
+Durante dos días de talleres, charlas y experimentos colectivos, nos reunimos para compartir saberes, habitar redes propias, romper la infraestructura y pensar futuros donde la tecnología esté al servicio de la autonomía y la imaginación radical.
 
-This year, under the motto _Chronically Online_, we ask about the digital present as an unavoidable condition—not pathological, but structured against us. We talk about cognitive warfare, affective loops, and the need to reclaim desire, infrastructure, and narrative.
+Este año, bajo el lema _Crónicamente Online_, nos preguntamos por el presente digital como una condición ineludible, no patológica, sino estructurada en contra nuestra. Hablamos de guerra cognitiva, loops afectivos, y de la necesidad de reapropiarse del deseo, la infraestructura y el relato.
 
-## Important Dates
-- September 30, 2025: Call for proposals closes  
-- October 30, 2025: Notification of results  
-- December 5–6, 2025: Primavera Hacker in Santiago, Chile  
+## Fechas importantes
+- 30 de septiembre 2025: Cierre de la convocatoria
 
-## We are looking for
-We invite proposals from those who work with, research, create, or sabotage technologies. We want to make space for stories that unsettle, dislocate, or move us. We seek ideas, tools, narratives, gestures, or failures that help us understand and subvert the architecture of the digital present.
+- 30 de octubre 2025: Notificación de resultados
 
-## **Thematic Axes**
+- 5 y 6 de diciembre 2025: Primavera Hacker en Santiago, Chile
 
-Primavera Hacker organizes its contents around curatorial axes. When sending your proposal, choose the one that best fits your topic:
+## Buscamos
+Invitamos a presentar propuestas a quienes trabajan, investigan, crean o sabotean tecnologías. Queremos abrir espacio a relatos que incomoden, disloquen o enternezcan. Buscamos ideas, herramientas, narrativas, gestos o fracasos que nos permitan entender y subvertir  la arquitectura del presente digital.
 
-### **Computational Art and Aesthetics**
+## **Ejes temáticos**
 
-We are looking for works, actions, or reflections that use technologies to alter sensibility, produce dissonance, or expand language. Installations, glitches, texts, demos. Strictly no conceptual performances allowed.
+Primavera Hacker organiza sus contenidos en ejes curatoriales. Al enviar tu propuesta, elige el que mejor se relacione con tu tema:
 
-### **Politics, Ethics, and Accelerationism**
+### **Arte y estética computacional**
 
-The network is reality. What do we do when digital infrastructure becomes a device of affective and political control? We want stories that address legislation, surveillance, platforms, borders, affects, surveillance capitalism, and digital disobedience.
+Buscamos obras, acciones o reflexiones que usen tecnologías para alterar la sensibilidad, producir disonancia, expandir el lenguaje. Instalaciones, glitches, textos, demos, se prohíben estrictamente performances conceptuales.
 
-### **Hardware, Tactics, and Materiality**
+### **Política, ética y aceleracionismo**
 
-Everything that makes the digital world land in the physical world. Device hacks, open boards, recycled machines, intervened sensors. We are interested both in design and in repair.
+La red es realidad. ¿Qué hacemos cuando la infraestructura digital se convierte en dispositivo de control afectivo y político? Queremos relatos que aborden legislación, vigilancia, plataformas, fronteras, afectos, capitalismo de la atención y desobediencia digital.
 
-### **Science and Knowledge**
+### **Hardware, tácticas y materialidad**
 
-We share a deep distrust of technosolutionist salvation narratives. This axis seeks research—formal or not—that contributes critical frameworks to think through crisis. It also seems important to us to stop demonizing the materialism of science. The fact that not all knowledge is scientific does not mean scientific knowledge is unnecessary, nor that we cannot use it strategically.
+Todo lo que hace que el mundo digital aterrice en el mundo físico. Hacks de dispositivos, placas abiertas, máquinas recicladas, sensores intervenidos. Nos interesa tanto el diseño como la reparación.
 
-### **Hacking and Offensive Security**
+### **Ciencia y conocimiento**
 
-Talks that explore digital security from multiple fronts: from offensive analysis of protocols, binaries, applications, or embedded systems, to tools and methodologies tied to operations, threat intel, or frameworks like MITRE ATT&CK. We also welcome proposals centered on encryption, privacy, digital self-defense pedagogies, and technologies designed to protect at-risk communities. We are interested both in exploit-oriented research and in building collective capacities to resist and survive in hostile environments.
+Compartimos una profunda desconfianza hacia los relatos salvadores del tecnosolucionismo. Este eje busca investigaciones, formales o no, que aporten marcos críticos para pensar la crisis. También nos parece importante dejar de demonizar el materialismo de la ciencia. Que no todo conocimiento sea científico no significa que el conocimiento científico no sea necesario, ni que no podamos utilizarlo estratégicamente.
 
-## **How to Participate**
+### **Hacking y seguridad ofensiva**
 
-Send your proposal to:  
+Charlas que exploren la seguridad digital desde múltiples frentes: desde el análisis ofensivo de protocolos, binarios, aplicaciones o sistemas embebidos, hasta herramientas y metodologías vinculadas a operaciones, threat intel o marcos como MITRE ATT&CK. También abrimos espacio a propuestas centradas en cifrado, privacidad, pedagogías de autodefensa digital y tecnologías diseñadas para proteger a comunidades en riesgo. Nos interesa tanto la investigación orientada a la explotación como la construcción de capacidades colectivas para resistir y sobrevivir en entornos hostiles.
+
+## **Cómo participar**
+
+Envía tu propuesta al correo:  
 **convocatoria@phacker.org**
 
-**Email Subject:**  
-`[Name] – [Proposal Title]`  
-_Example: Carla López – Infrastructure and Collective Desire_
+**Asunto del correo:**  
+`[Nombre] – [Título de la propuesta]`  
+_Ejemplo: Carla López – Infraestructura y deseo colectivo_
 
-Talks can last **15, 30, or 45 minutes** (plus Q&A).  
-If you want to present something unconventional (installation, workshop, intervention, etc.) or need more time, state it clearly.
-
----
-
-## **Submission Guide**
-
-Include in the body of your message:
-
-- **Clear and accessible title and subtitle**  
-- **Thematic axis** it relates to  
-- **Proposal summary** (max. 1500 characters)  
-- **Short biography** (max. 600 characters)  
-- **Format:** talk, workshop, installation, etc.  
-- **Estimated duration**  
-- **Modality:** in-person or remote  
-- **Reference links** (if applicable)  
-
-Avoid cryptic names or inside jokes. We want to understand what your proposal is about without needing to know you beforehand.  
-
-Commercial presentations will not be accepted.  
-
-## **Travel Support**
-
-Primavera Hacker is a non for profit event. There is no payment for presentations, but if you are selected you may request partial travel support or a letter of invitation for visa purposes.
+Las charlas pueden durar **15, 30 o 45 minutos** (más preguntas).  
+Si deseas presentar algo no convencional (instalación, taller, intervención, etc.) o necesitas más tiempo, indícalo claramente.
 
 ---
 
-The internet is ours, and it is made by the people.  
+## **Guía de envío**
 
+Incluye en el cuerpo del mensaje:
+
+- **Título y subtítulo claros y accesibles**
+- **Eje temático** al que se vincula
+- **Resumen** de la propuesta (máx. 1500 caracteres)
+- **Biografía corta** (máx. 600 caracteres)
+- **Formato:** charla, taller, instalación, etc.
+- **Duración estimada**
+- **Modalidad:** presencial o remota
+- **Links de referencia** (si corresponde)
+
+Evita nombres crípticos o chistes internos. Queremos comprender de qué trata tu propuesta sin necesidad de conocerte previamente.
+
+No se aceptarán presentaciones con fines comerciales.  
+
+## **Apoyo de viajes**
+
+Primavera Hacker es un evento sin fines de lucro. No hay pago por presentación, pero si eres seleccionadx puedes solicitar apoyo parcial para tu traslado o una carta de invitación para trámites de visa.
+
+---
+
+La internet es nuestra y la hacen los pueblos.
+
+phacker.org
