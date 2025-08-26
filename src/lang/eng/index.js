@@ -8,7 +8,7 @@ const eng_messages = {
   titles: {
     evento: "Chronically Online",
     convocatoria: "Call for Proposals",
-    manifiesto: "MANIFEST",
+    manifiesto: "MANIFESTO",
     codigo: "CODE OF CONDUCT",
   },
 };
