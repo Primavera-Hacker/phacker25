@@ -1,27 +1,33 @@
 import { useRef } from "react";
 import cn from "classnames";
 
+import { useLang } from "../../store/lang";
 import MarkdownFromFile from "../../components/MakdownFromFile/MarkdownFromFile";
+
 import css from "./Evento.module.css";
 
 const Evento = () => {
   const ref = useRef();
+  const { lang, messages } = useLang();
   const handleScrollToFechas = () => {
     if (!ref.current) return;
 
     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+
+  const { titles } = messages();
   return (
     <div className="page-container">
       <h1 className="text-heading-primary mt2XL mb4XL">
         Primavera Hacker 2025 :: <br />
-        Crónicamente Online
+        {titles.evento}
       </h1>
+
       <button className={css.irButton} onClick={handleScrollToFechas}>
         IR A FECHAS IMPORTANTES ↓
       </button>
       <div className="mbXL">
-        <MarkdownFromFile file="/evento.md" />
+        <MarkdownFromFile file={`/content/${lang}/evento.md`} />
       </div>
       <div className={css.fechasWrapper} ref={ref}>
         <h3 className={cn(css.fechasTitle, "text-heading-secondary")}>

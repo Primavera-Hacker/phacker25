@@ -5,8 +5,11 @@ import { LogoPHacker25 } from "../Logos";
 import { paths } from "../Router/routes";
 
 import css from "./Navbar.module.css";
+import { useLang } from "../../store/lang";
 
 const SobreMenu = () => {
+  const { setEsp, setEng, lang } = useLang();
+
   return (
     <div className={css.sobremenu}>
       <Link to={paths.home} className={css.logoPhacker25}>
@@ -14,10 +17,18 @@ const SobreMenu = () => {
       </Link>
 
       <div className={css.lang}>
-        <button className={classNames("text-eyebrow", css.langButton)}>
+        <button
+          data-active={lang == "esp"}
+          className={classNames("text-eyebrow", css.langButton)}
+          onClick={setEsp}
+        >
           ESP
         </button>
-        <button className={classNames("text-eyebrow", css.langButton)} disabled>
+        <button
+          data-active={lang == "eng"}
+          className={classNames("text-eyebrow", css.langButton)}
+          onClick={setEng}
+        >
           ENG
         </button>
       </div>

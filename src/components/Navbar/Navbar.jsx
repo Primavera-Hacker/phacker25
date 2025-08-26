@@ -7,12 +7,15 @@ import { paths } from "../Router/routes";
 import css from "./Navbar.module.css";
 import { useState } from "react";
 import MobileMenuDrawer from "./MobileMenuDrawer";
+import { useLang } from "../../store/lang";
 
 const Nav = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const { messages } = useLang();
   const isHome = location.pathname === "/";
   const [menuOpen, setMenuOpen] = useState();
+  const { evento, convocatoria, manifiesto } = messages();
 
   return (
     <>
@@ -28,7 +31,7 @@ const Nav = () => {
             to={paths.evento}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
-            evento
+            {evento}
           </Link>
           <div
             className={cn(css.rect, "bgGrey300 bgPinkLines")}
@@ -38,14 +41,14 @@ const Nav = () => {
             to={paths.convocatoria}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
-            convocatoria
+            {convocatoria}
           </Link>
           <div className={cn(css.rect, "bgRed")} style={{ flex: 2 }} />
           <Link
             to={paths.manifiesto}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
-            manifiesto
+            {manifiesto}
           </Link>
           <div className={cn(css.rect, "bgGrey200")} style={{ flex: 4 }} />
           <div

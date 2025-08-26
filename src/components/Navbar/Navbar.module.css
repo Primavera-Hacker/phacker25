@@ -22,10 +22,15 @@
 .langButton {
   padding: 0 var(--space-2xs);
   background-color: var(--color-background-red);
+  opacity: 1;
+}
+
+.langButton[data-active="true"] {
+  opacity: 0.7;
 }
 
 .langButton:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .homeButton {

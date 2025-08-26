@@ -5,8 +5,12 @@ import { paths } from "../Router/routes";
 
 import css from "./Footer.module.css";
 import cn from "classnames";
+import { useLang } from "../../store/lang";
 
 const Nav = () => {
+  const { messages } = useLang();
+  const { codigo, archivo, footer } = messages();
+
   return (
     <footer className={css.root}>
       <div className={cn(css.rect, css.redRect, "bgRed")} />
@@ -14,18 +18,19 @@ const Nav = () => {
         <strong>春ハッカー</strong>
       </div>
       <div className={css.links}>
-        <Link to={paths.conducta} className={cn(css.link, "text-eyebrow")}>
-          CODIGO DE CONDUCTA
+        <Link
+          to={paths.conducta}
+          className={cn(css.link, "text-eyebrow text-uppercase")}
+        >
+          {codigo}
         </Link>{" "}
-        <a href="#" className={cn(css.link, "text-eyebrow")}>
-          ARCHIVO PHACKER
+        <a href="#" className={cn(css.link, "text-eyebrow text-uppercase")}>
+          {archivo}
         </a>
       </div>
       <div className={cn(css.info, "bgGrey200 bgGreenLines")}>
         <Marquee autoFill>
-          <span style={{ marginLeft: "1rem" }}>
-            5 y 6 de Diciembre, Casa Palacio, Santiago, Chile.
-          </span>
+          <span style={{ marginLeft: "1rem" }}>{footer}</span>
         </Marquee>
       </div>
     </footer>
