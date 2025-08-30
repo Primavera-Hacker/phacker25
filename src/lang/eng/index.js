@@ -11,6 +11,22 @@ const eng_messages = {
     manifiesto: "MANIFESTO",
     codigo: "CODE OF CONDUCT",
   },
+  dates: {
+  title: "Important Dates",
+  cta: "GO TO IMPORTANT DATES ↓",
+  notification: {
+    date: "October 30, 2025",
+    label: "Notification of results",
+  },
+  closing: {
+    date: "September 30, 2025",
+    label: "Call deadline",
+  },
+  event: {
+    date: "December 5–6, 2025",
+    label: "2025 Primavera Hacker in Santiago, Chile",
+  },
+},
 };
 
 export default eng_messages;

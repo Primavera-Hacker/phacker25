@@ -16,6 +16,7 @@ const Evento = () => {
   };
 
   const { titles } = messages();
+  const { dates } = messages();
   return (
     <div className="page-container">
       <h1 className="text-heading-primary mt2XL mb4XL">
@@ -24,28 +25,28 @@ const Evento = () => {
       </h1>
 
       <button className={css.irButton} onClick={handleScrollToFechas}>
-        IR A FECHAS IMPORTANTES ↓
+        {dates.cta}
       </button>
       <div className="mbXL">
         <MarkdownFromFile file={`/content/${lang}/evento.md`} />
       </div>
       <div className={css.fechasWrapper} ref={ref}>
         <h3 className={cn(css.fechasTitle, "text-heading-secondary")}>
-          FECHAS IMPORTANTES
+          {dates.title}
         </h3>
         <div className={css.fechas}>
           <div className={css.fechaItem}>
-            <h4 className="text-body-semibold">8 de octubre 2025</h4>
-            <p className="text-body-light">Notificación de resultados</p>
+            <h4 className="text-body-semibold">{dates.notification.date}</h4>
+            <p className="text-body-light">{dates.notification.label}</p>
           </div>
           <div className={css.fechaItem}>
-            <h4 className="text-body-semibold">20 de septiembre 2025 </h4>
-            <p className="text-body-light">Cierre de la convocatoria</p>
+            <h4 className="text-body-semibold">{dates.closing.date} </h4>
+            <p className="text-body-light">{dates.closing.label}</p>
           </div>
           <div className={css.fechaItem}>
-            <h4 className="text-body-semibold">5 y 6 de diciembre</h4>
+            <h4 className="text-body-semibold">{dates.event.date}</h4>
             <p className="text-body-light">
-              2025 Primavera Hacker en Santiago, Chile
+              {dates.event.label}
             </p>
           </div>
         </div>

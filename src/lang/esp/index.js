@@ -11,6 +11,22 @@ const esp_messages = {
     manifiesto: "MANIFIESTO",
     codigo: "CÓDIGOS DE CONVIVENCIA",
   },
+  dates: {
+    title: "Fechas Importantes",
+    cta: "IR A FECHAS IMPORTANTES ↓",
+    notification: {
+      date: "30 de octubre 2025",
+      label: "Notificación de resultados",
+    },
+    closing: {
+      date: "30 de septiembre 2025",
+      label: "Cierre de la convocatoria",
+    },
+    event: {
+      date: "5 y 6 de diciembre 2025",
+      label: "2025 Primavera Hacker en Santiago, Chile",
+    },
+  },
 };
 
 export default esp_messages;
