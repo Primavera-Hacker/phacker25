@@ -24,7 +24,7 @@ const Nav = () => {
         >
           {codigo}
         </Link>{" "}
-        <a href="#" className={cn(css.link, "text-eyebrow text-uppercase")}>
+        <a href="https://archivo.phacker.org/elpasado/" className={cn(css.link, "text-eyebrow text-uppercase")}  target="_blank" rel="noopener noreferrer">
           {archivo}
         </a>
       </div>
