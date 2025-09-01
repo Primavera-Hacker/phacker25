@@ -15,7 +15,7 @@ const Nav = () => {
   const { messages } = useLang();
   const isHome = location.pathname === "/";
   const [menuOpen, setMenuOpen] = useState();
-  const { evento, convocatoria, manifiesto } = messages();
+  const { evento, convocatoria, manifiesto, cerrar } = messages();
 
   return (
     <>
@@ -81,7 +81,7 @@ const Nav = () => {
             onClick={() => setMenuOpen((state) => !state)}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
-            {menuOpen ? "CERRAR" : "MENU"}
+            {menuOpen ? cerrar : "MENU"}
           </button>
         </nav>
       </header>

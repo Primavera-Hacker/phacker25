@@ -5,6 +5,7 @@ const esp_messages = {
   codigo: "códigos de convivencia",
   archivo: "archivo phacker",
   footer: "5 y 6 de Diciembre, Casa Palacio, Santiago, Chile.",
+  cerrar: "cerrar",
   titles: {
     evento: "Crónicamente Online",
     convocatoria: "CONVOCATORIA",
