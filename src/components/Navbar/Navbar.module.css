@@ -67,6 +67,7 @@
 .primaryLink {
   color: var(--color-text-invert);
   background: var(--color-background-invert);
+  opacity: 1;
 }
 
 .primaryLink:hover {
