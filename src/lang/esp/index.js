@@ -20,7 +20,7 @@ const esp_messages = {
       label: "Notificación de resultados",
     },
     closing: {
-      date: "30 de septiembre 2025",
+      date: "15 de octubre 2025",
       label: "Cierre de la convocatoria",
     },
     event: {

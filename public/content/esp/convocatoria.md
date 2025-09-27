@@ -5,7 +5,7 @@ Durante dos días de talleres, charlas y experimentos colectivos, nos reunimos p
 Este año, bajo el lema _Crónicamente Online_, nos preguntamos por el presente digital como una condición ineludible, no patológica, sino estructurada en contra nuestra. Hablamos de guerra cognitiva, loops afectivos, y de la necesidad de reapropiarse del deseo, la infraestructura y el relato.
 
 ## Fechas importantes
-- 30 de septiembre 2025: Cierre de la convocatoria
+- 15 de octubre 2025: Cierre de la convocatoria
 
 - 30 de octubre 2025: Notificación de resultados
 

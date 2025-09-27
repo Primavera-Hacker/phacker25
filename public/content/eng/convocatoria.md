@@ -5,7 +5,7 @@ Over two days of workshops, talks, and collective experiments, we come together 
 This year, under the motto _Chronically Online_, we ask about the digital present as an unavoidable condition—not pathological, but structured against us. We talk about cognitive warfare, affective loops, and the need to reclaim desire, infrastructure, and narrative.
 
 ## Important Dates
-- September 30, 2025: Call for proposals closes  
+- October 15, 2025: Call for proposals closes  
 - October 30, 2025: Notification of results  
 - December 5–6, 2025: Primavera Hacker in Santiago, Chile  
 
