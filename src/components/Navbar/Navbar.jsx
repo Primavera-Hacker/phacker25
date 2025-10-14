@@ -1,21 +1,35 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import cn from "classnames";
+import { useIntl } from "react-intl";
 import SobreMenu from "./SobreMenu";
 import { LogoPHacker25 } from "../Logos";
+import { useLocalizedNavigate } from "../../hooks/useLocalizedNavigate";
 
 import { paths } from "../Router/routes";
 import css from "./Navbar.module.css";
 import { useState } from "react";
 import MobileMenuDrawer from "./MobileMenuDrawer";
-import { useLang } from "../../store/lang";
+import { useLocale } from "../../hooks/useLocale";
 
 const Nav = () => {
-  const navigate = useNavigate();
+  const navigate = useLocalizedNavigate();
   const location = useLocation();
-  const { messages } = useLang();
-  const isHome = location.pathname === "/";
+  const intl = useIntl();
+  const { locale } = useLocale();
+
+  // Detectar si estamos en home considerando el idioma
+  const isHome = location.pathname === "/" || location.pathname === "/en";
   const [menuOpen, setMenuOpen] = useState();
-  const { evento, convocatoria, manifiesto, cerrar } = messages();
+
+  const evento = intl.formatMessage({ id: "evento" });
+  const convocatoria = intl.formatMessage({ id: "convocatoria" });
+  const manifiesto = intl.formatMessage({ id: "manifiesto" });
+  const cerrar = intl.formatMessage({ id: "cerrar" });
+
+  // Helper para crear paths localizados
+  const getLocalizedPath = (path) => {
+    return locale === "en" ? `/en${path}` : path;
+  };
 
   return (
     <>
@@ -28,7 +42,7 @@ const Nav = () => {
           <div className={cn(css.rect, "bgGrey700")} style={{ flex: 3 }} />
           {/* <div className={cn(css.rect, "bgRed")} style={{ flex: 6 }} /> */}
           <Link
-            to={paths.evento}
+            to={getLocalizedPath(paths.evento)}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
             {evento}
@@ -38,14 +52,14 @@ const Nav = () => {
             style={{ flex: 6 }}
           />
           <Link
-            to={paths.convocatoria}
+            to={getLocalizedPath(paths.convocatoria)}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
             {convocatoria}
           </Link>
           <div className={cn(css.rect, "bgRed")} style={{ flex: 2 }} />
           <Link
-            to={paths.manifiesto}
+            to={getLocalizedPath(paths.manifiesto)}
             className={cn("text-link-primary px4XS", css.primaryLink)}
           >
             {manifiesto}

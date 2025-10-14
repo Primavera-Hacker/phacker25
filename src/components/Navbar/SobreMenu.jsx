@@ -3,31 +3,35 @@ import classNames from "classnames";
 
 import { LogoPHacker25 } from "../Logos";
 import { paths } from "../Router/routes";
+import { useLocale } from "../../hooks/useLocale";
 
 import css from "./Navbar.module.css";
-import { useLang } from "../../store/lang";
 
 const SobreMenu = () => {
-  const { setEsp, setEng, lang } = useLang();
+  const { locale, setLocale } = useLocale();
+
+  const getLocalizedPath = (path) => {
+    return locale === "en" ? `/en${path}` : path;
+  };
 
   return (
     <div className={css.sobremenu}>
-      <Link to={paths.home} className={css.logoPhacker25}>
+      <Link to={getLocalizedPath(paths.home)} className={css.logoPhacker25}>
         <LogoPHacker25 />
       </Link>
 
       <div className={css.lang}>
         <button
-          data-active={lang == "esp"}
+          data-active={locale === "es"}
           className={classNames("text-eyebrow", css.langButton)}
-          onClick={setEsp}
+          onClick={() => setLocale("es")}
         >
           ESP
         </button>
         <button
-          data-active={lang == "eng"}
+          data-active={locale === "en"}
           className={classNames("text-eyebrow", css.langButton)}
-          onClick={setEng}
+          onClick={() => setLocale("en")}
         >
           ENG
         </button>

@@ -5,23 +5,38 @@ import Meta from "../Meta";
 
 const Router = () => (
   <Routes>
-    {routes.map((route) => (
-      <Route
-        key={route.path}
-        element={<Layout noPadding={route.path === paths.home} />}
-      >
+    {routes.map((route) => {
+      const isHome = route.path === paths.home;
+      // Generar rutas tanto para español como para inglés
+      return (
         <Route
-          path={route.path}
-          index={route.index}
-          element={
-            <>
-              <Meta {...route.meta} />
-              {route.component}
-            </>
-          }
-        />
-      </Route>
-    ))}
+          key={route.path}
+          element={<Layout noPadding={isHome} />}
+        >
+          {/* Ruta en español (default) */}
+          <Route
+            path={route.path}
+            index={route.index}
+            element={
+              <>
+                <Meta {...route.meta} />
+                {route.component}
+              </>
+            }
+          />
+          {/* Ruta en inglés (/en/*) */}
+          <Route
+            path={isHome ? "/en" : `/en${route.path}`}
+            element={
+              <>
+                <Meta {...route.meta} />
+                {route.component}
+              </>
+            }
+          />
+        </Route>
+      );
+    })}
   </Routes>
 );
 

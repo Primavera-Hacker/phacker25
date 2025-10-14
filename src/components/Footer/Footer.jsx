@@ -1,15 +1,23 @@
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import { useIntl } from "react-intl";
+import { useLocale } from "../../hooks/useLocale";
 
 import { paths } from "../Router/routes";
 
 import css from "./Footer.module.css";
 import cn from "classnames";
-import { useLang } from "../../store/lang";
 
 const Nav = () => {
-  const { messages } = useLang();
-  const { codigo, archivo, footer } = messages();
+  const intl = useIntl();
+  const { locale } = useLocale();
+  const codigo = intl.formatMessage({ id: "codigo" });
+  const archivo = intl.formatMessage({ id: "archivo" });
+  const footer = intl.formatMessage({ id: "footer" });
+
+  const getLocalizedPath = (path) => {
+    return locale === "en" ? `/en${path}` : path;
+  };
 
   return (
     <footer className={css.root}>
@@ -19,7 +27,7 @@ const Nav = () => {
       </div>
       <div className={css.links}>
         <Link
-          to={paths.conducta}
+          to={getLocalizedPath(paths.conducta)}
           className={cn(css.link, "text-eyebrow text-uppercase")}
         >
           {codigo}
