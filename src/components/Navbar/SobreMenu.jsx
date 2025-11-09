@@ -19,6 +19,7 @@ const SobreMenu = () => {
       <Link to={getLocalizedPath(paths.home)} className={css.logoPhacker25}>
         <LogoPHacker25 />
       </Link>
+      <div className={css.blank} />
 
       <div className={css.lang}>
         <button

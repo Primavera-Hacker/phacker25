@@ -7,6 +7,8 @@ import { paths } from "../Router/routes";
 
 import css from "./Footer.module.css";
 import cn from "classnames";
+import FloatingNav from "./FloatingNav";
+import { useState } from "react";
 
 const Nav = () => {
   const intl = useIntl();
@@ -15,13 +17,21 @@ const Nav = () => {
   const archivo = intl.formatMessage({ id: "archivo" });
   const footer = intl.formatMessage({ id: "footer" });
 
+  const [menuOpen, setMenuOpen] = useState(true);
+
   const getLocalizedPath = (path) => {
     return locale === "en" ? `/en${path}` : path;
   };
 
   return (
     <footer className={css.root}>
-      <div className={cn(css.rect, css.redRect, "bgRed")} />
+      <FloatingNav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <button
+        onClick={() => setMenuOpen(true)}
+        className={cn(css.rect, css.redRect, "bgRed")}
+      >
+        {!menuOpen && <span className={css.bottomMenuBtn}>MENU</span>}
+      </button>
       <div className={cn(css.rect, css.jp, "bgGrey800 bgPinkLines")}>
         <strong>春ハッカー</strong>
       </div>
@@ -32,7 +42,12 @@ const Nav = () => {
         >
           {codigo}
         </Link>{" "}
-        <a href="https://archivo.phacker.org/elpasado/" className={cn(css.link, "text-eyebrow text-uppercase")}  target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://archivo.phacker.org/elpasado/"
+          className={cn(css.link, "text-eyebrow text-uppercase")}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {archivo}
         </a>
       </div>

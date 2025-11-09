@@ -11,7 +11,7 @@
 
 const breakpoint = 680;
 const footer = 28;
-const nav_desktop = 16 + 28;
+const nav_desktop = 16;
 const nav_mobile = 28;
 
 export default function getCanvasSize() {

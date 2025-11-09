@@ -3,12 +3,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  grid-template-rows: var(--element-height-sobremenu) var(--element-height-menu);
 }
 
 .sobremenu {
+  width: 100%;
   background-color: var(--color-background-invert);
   color: var(--color-text-invert);
   display: flex;
@@ -36,10 +34,7 @@
 .homeButton {
   background-color: var(--color-background-invert);
   color: var(--color-text-invert);
-  grid-row: 1/ 3;
-  font-size: var(--text-2xl);
-  line-height: 0;
-  padding: 0 var(--space-2xs) var(--space-2xs);
+  padding-bottom: var(--space-s);
 }
 
 .homeButton:hover {
@@ -82,7 +77,9 @@
 .drawer {
   display: none;
 }
-
+.blank {
+  flex: 1;
+}
 @media (max-width: 680px) {
   .root {
     grid-template-columns: 1fr max-content;
