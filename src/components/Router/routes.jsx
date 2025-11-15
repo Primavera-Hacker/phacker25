@@ -5,6 +5,7 @@ import Manifiesto from "../../pages/Manifiesto";
 import NotFound from "../../pages/NotFound";
 import Conducta from "../../pages/Conducta";
 import Home from "../../pages/Home";
+import Programa from "../../pages/Programa";
 
 export const paths = {
   home: "/",
@@ -13,6 +14,7 @@ export const paths = {
   evento: "/evento",
   manifiesto: "/manifiesto",
   conducta: "/codigo-de-conducta",
+  programa: "/programa",
 };
 
 export const routes = [
@@ -46,6 +48,11 @@ export const routes = [
     path: paths.conducta,
     component: <Conducta />,
     meta: { title: "PHACKER:25 | Conducta", description: "" },
+  },
+  {
+    path: paths.programa,
+    component: <Programa />,
+    meta: { title: "PHACKER:25 | Programa", description: "" },
   },
   {
     path: "*",
