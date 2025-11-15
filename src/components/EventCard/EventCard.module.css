@@ -1,0 +1,9 @@
+.root {
+  /* EventCard styles */
+  cursor: pointer;
+  padding: 0 var(--space-s);
+}
+
+.title {
+  font-weight: 600;
+}

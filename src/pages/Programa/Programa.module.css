@@ -1,3 +1,4 @@
 .root {
   /* Estilos personalizados para la página Programa */
+  padding-bottom: var(--space-2xl);
 }

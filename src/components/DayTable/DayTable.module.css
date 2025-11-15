@@ -1,0 +1,96 @@
+.root {
+  /* Container styles */
+  margin-bottom: var(--space-xl);
+}
+
+.dayTitle {
+  /* Day title styles */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr 0;
+  gap: 0;
+}
+
+.headerHoras,
+.header,
+.mobileHeader {
+  text-transform: uppercase;
+  font-size: var(--text-xl);
+}
+
+.headerHoras {
+  grid-column: 1;
+  border-bottom: 1px dashed var(--color-border-primary);
+}
+
+.header {
+  border-bottom: 1px dashed var(--color-border-primary);
+}
+
+.mobileHeader {
+  /* Mobile header - hidden on desktop */
+  display: none;
+  grid-column: 5;
+}
+
+.hourCell {
+  /* Hour column cell styles */
+  grid-column: 1;
+  padding-right: var(--space-m);
+  border-bottom: 1px dashed var(--color-border-primary);
+}
+
+.eventCell {
+  /* Event cell styles - visible on desktop */
+  border-bottom: 1px dashed var(--color-border-primary);
+}
+
+.mobileEventCell {
+  /* Mobile event cell - hidden on desktop */
+  display: none;
+  grid-column: 5;
+  border-bottom: 1px dashed var(--color-border-primary);
+}
+
+/* Mobile styles */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: auto 1fr;
+    gap: 0;
+  }
+
+  .headerHoras {
+    grid-column: 1;
+    border: 0;
+  }
+
+  .header {
+    /* Hide all desktop headers (Subte, Piso 1, Piso 2) on mobile */
+    display: none;
+  }
+
+  .mobileHeader {
+    /* Show mobile header (Evento) */
+    display: block;
+    grid-column: 2;
+  }
+
+  .hourCell {
+    grid-column: 1;
+  }
+
+  .eventCell {
+    /* Hide desktop event cells on mobile */
+    display: none;
+  }
+
+  .mobileEventCell {
+    /* Show mobile event cell */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    grid-column: 2;
+  }
+}

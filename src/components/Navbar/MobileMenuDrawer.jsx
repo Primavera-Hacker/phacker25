@@ -14,7 +14,7 @@ const MobileMenuDrawer = ({ isOpen, closeDrawer }) => {
   const { locale, setLocale } = useLocale();
 
   const evento = intl.formatMessage({ id: "evento" });
-  const convocatoria = intl.formatMessage({ id: "convocatoria" });
+  const programa = intl.formatMessage({ id: "programa" });
   const manifiesto = intl.formatMessage({ id: "manifiesto" });
   const codigo = intl.formatMessage({ id: "codigo" });
 
@@ -44,10 +44,10 @@ const MobileMenuDrawer = ({ isOpen, closeDrawer }) => {
         </Link>
         <Link
           onClick={closeDrawer}
-          to={getLocalizedPath(paths.convocatoria)}
+          to={getLocalizedPath(paths.programa)}
           className={cn("text-link-primary", css.primaryLink)}
         >
-          {convocatoria}
+          {programa}
         </Link>
         <Link
           onClick={closeDrawer}
