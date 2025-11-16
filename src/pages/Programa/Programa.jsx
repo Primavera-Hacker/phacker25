@@ -36,7 +36,13 @@ const Programa = () => {
 
   return (
     <div className={css.root}>
-      <DayTable day="viernes" onEventClick={handleEventClick} />
+      <div className={css.stickyHeader}>
+        <div className={css.headerHoras} />
+        <div className={css.header}>SUBTE</div>
+        <div className={css.header}>SALA.01</div>
+        <div className={css.header}>SALA.02</div>
+      </div>
+      <DayTable day="viernes" onEventClick={handleEventClick} noHeading />
       <DayTable day="sabado" noHeading onEventClick={handleEventClick} />
       {openEvent && (
         <OverlayOpenEvent openEvent={openEvent} setOpenEvent={setOpenEvent} />

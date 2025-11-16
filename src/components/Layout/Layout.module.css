@@ -1,7 +1,5 @@
 .main {
-  padding-top: calc(
-    var(--element-height-sobremenu) + var(--element-padding-y-main)
-  );
+  padding-top: calc(var(--element-height-sobremenu));
   padding-bottom: cacl(
     var(--element-height-footer) + var(--element-padding-y-main)
   );
@@ -18,12 +16,15 @@
 
 @media (max-width: 680px) {
   .main {
-    padding-top: calc(
-      var(--element-height-menu) + var(--element-padding-y-main)
-    );
+    padding-top: calc(var(--element-height-menu));
   }
 
   .main[data-full="true"] {
     padding-top: calc(var(--element-height-menu));
   }
+}
+
+.main[data-no-padding-x="true"] {
+  padding-right: 0;
+  padding-left: 0;
 }

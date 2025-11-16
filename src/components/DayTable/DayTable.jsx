@@ -1,3 +1,4 @@
+import Marquee from "react-fast-marquee";
 import EventCard from "../EventCard";
 import programs from "../../data/programs";
 import css from "./DayTable.module.css";
@@ -64,7 +65,7 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
 
   return (
     <div className={css.root}>
-      <h3 className={css.dayTitle}>{day}</h3>
+      <div className={css.daymarquee}>{day}</div>
       <div className={css.grid}>
         {/* Header */}
         {!noHeading && (
