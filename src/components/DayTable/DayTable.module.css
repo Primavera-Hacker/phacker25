@@ -13,7 +13,7 @@
 .grid {
   display: grid;
   grid-template-columns: 60px 1fr 1fr 1fr;
-  gap: 0;
+  gap: 1px;
 }
 
 .headerHoras,
@@ -37,6 +37,13 @@
   /* Hour column cell styles */
   grid-column: 1;
   padding-right: var(--space-m);
+}
+
+.eventCell {
+  /* Desktop event cell - stack multiple events */
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
 .mobileEventCell {

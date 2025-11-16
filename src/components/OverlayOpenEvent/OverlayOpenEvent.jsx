@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 import css from "./OverlayOpenEvent.module.css";
+import classNames from "classnames";
+import { formatDate, formatSala } from "../../utils";
 
 export default function OverlayOpenEvent({ openEvent, setOpenEvent }) {
   const wrapperRef = useRef(null);
@@ -39,7 +41,7 @@ export default function OverlayOpenEvent({ openEvent, setOpenEvent }) {
   }, []);
 
   if (!openEvent) return null;
-
+  console.log(openEvent);
   return (
     <div className={css.root}>
       <div className={css.overlay} onClick={() => setOpenEvent(null)} />
@@ -47,7 +49,31 @@ export default function OverlayOpenEvent({ openEvent, setOpenEvent }) {
         <button className={css.closeButton} onClick={() => setOpenEvent(null)}>
           ✕
         </button>
-        <pre>{JSON.stringify(openEvent, null, 2)}</pre>
+        <div className={css.content}>
+          <div
+            className={classNames(
+              css.eje,
+              "text-eyebrow text-uppercase bgGrey200 bgGreenLines"
+            )}
+          >
+            {openEvent.eje}
+          </div>
+          <h1 className={classNames(css.title, "text-heading-secondary")}>
+            {openEvent.titulo}
+          </h1>
+          <div className={css.details}>
+            <span>{formatDate(openEvent.date)}</span>
+            <span>
+              <strong>{formatSala(openEvent.sala)}</strong>
+            </span>
+          </div>
+          <p className={css.resumen}>{openEvent.resumen}</p>
+          {(openEvent.autor || openEvent.bio) && (
+            <div className={css.divider} />
+          )}
+          <h4 className={css.author}>{openEvent.autor}</h4>
+          <p className={css.bio}>{openEvent.author_bio}</p>
+        </div>
       </div>
     </div>
   );

@@ -88,7 +88,7 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
 
             {/* Columnas de salas - Desktop */}
             {salas.map((sala) => {
-              const eventInSlot = dayEvents.find(
+              const eventsInSlot = dayEvents.filter(
                 (event) =>
                   event.sala.toLowerCase().includes(sala.toLowerCase()) &&
                   getEventHour(event.date) === hour
@@ -96,12 +96,13 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
 
               return (
                 <div key={`${hour}-${sala}`} className={css.eventCell}>
-                  {eventInSlot && (
+                  {eventsInSlot.map((event) => (
                     <EventCard
-                      {...eventInSlot}
-                      onClick={() => onEventClick(eventInSlot)}
+                      key={event.slug}
+                      {...event}
+                      onClick={() => onEventClick(event)}
                     />
-                  )}
+                  ))}
                 </div>
               );
             })}

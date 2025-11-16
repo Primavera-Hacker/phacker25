@@ -21,6 +21,11 @@
   color: white;
 }
 
+.mesa {
+  background-color: white;
+  color: black;
+}
+
 .author,
 .category {
   padding: var(--space-4xs);
