@@ -1,3 +1,4 @@
+import React from "react";
 import Marquee from "react-fast-marquee";
 import EventCard from "../EventCard";
 import programs from "../../data/programs";
@@ -80,9 +81,9 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
 
         {/* Rows por cada hora */}
         {hours.map((hour) => (
-          <>
+          <React.Fragment key={hour}>
             {/* Columna de horas */}
-            <div key={`hour-${hour}`} className={css.hourCell}>
+            <div className={css.hourCell}>
               {hour.toString().padStart(2, "0")}:00
             </div>
 
@@ -119,7 +120,7 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
                   />
                 ))}
             </div>
-          </>
+          </React.Fragment>
         ))}
       </div>
     </div>

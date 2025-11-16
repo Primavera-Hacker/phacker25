@@ -1,6 +1,7 @@
 const eng_messages = {
   evento: "event",
   convocatoria: "apply",
+  programa: "schedule",
   manifiesto: "manifest",
   codigo: "code of conduct",
   archivo: "archivo phacker",
