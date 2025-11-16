@@ -62,7 +62,7 @@ export default function OverlayOpenEvent({ openEvent, setOpenEvent }) {
             {openEvent.titulo}
           </h1>
           <div className={css.details}>
-            <span>{formatDate(openEvent.date)}</span>
+            <span>{formatDate(openEvent.date)}</span>{" "}
             <span>
               <strong>{formatSala(openEvent.sala)}</strong>
             </span>
