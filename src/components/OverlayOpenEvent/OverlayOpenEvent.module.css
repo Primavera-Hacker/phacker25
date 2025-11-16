@@ -74,4 +74,7 @@
     width: calc(100% - var(--space-s)- var(--space-s));
     max-width: none;
   }
+  .content {
+    padding: 0;
+  }
 }
