@@ -6,6 +6,21 @@ export const programs = [
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "sala": "subte",
+    "keywords": "cognicion, algoritmos, rrss",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "La naturaleza de la guerra evoluciona, pasamos de la guerra kinética, a las guerras híbridas, hasta un nuevo territorio de batalla: la cognición. La subjetividad misma se ve intervenida y atacada, algoritmos y redes sociales se vuelven armas en una guerra de escala y velocidad sin precedentes, empleadas con el objetivo de erosionar el pensamiento crítico, socavar la confianza en las instituciones y fragmentar el tejido social.Comprender estos mecanismos no es solo un desafío, sino una necesidad colectiva. La percepción de la realidad, nuestras creencias y emociones están siendo manipuladas.  La batalla se está dando en el núcleo mismo de la subjetividad. ¿Cómo funcionan estos mecanismos? ¿Cómo podemos recuperar el control sobre nuestra propia mente?",
+    "slug": "guerra-cognitiva-subjetividad-y-algoritmos",
+    "author_bio": "Psicóloga, investigadora y artista argentina, con foco interdisciplinar, articula teoría crítica, y sensibilidad contemporánea, abordando los cruces entre percepción, poder y tecnologías digitales que se despliegan en los bordes entre lo simbólico y lo político. Co-directora de la diplomatura en inteligencia artificial aplicada a las artes multimediales en la UNA. (Universidad Nacional de las Artes)",
+    "autor": "Isha Verdeazul",
+    "titulo": "Guerra Cognitiva: subjetividad y algoritmos",
+    "date": "2024-12-13T22:00:00.000Z"
+  },
+  {
+    "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "sala": "subte",
     "keywords": "Tecnopolitica",
     "tipo": [
       "charla"
@@ -15,6 +30,21 @@ export const programs = [
     "author_bio": "saico",
     "autor": "Saico",
     "titulo": "Dracula y Psyops",
+    "date": "2024-12-13T23:00:00.000Z"
+  },
+  {
+    "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "sala": "subte",
+    "keywords": "identidad, disciplina, risas",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Charla de arte contra el disciplinamiento. Propone ofender identidades manufacturadas para desarmar al poder que glorifica al individuo y destruye lo comunitario. La clave es reírse de la propia estupidez, la solemnidad y el consumo identitario.",
+    "slug": "la-estupidez-como-camino",
+    "author_bio": "Estudió cine, actuación, dirección de arte y trabaja como editor/animador. Su arte combina todo con dibujo y pintura. Crea personajes y contenido online/en vivo, centrado en el ridículo, el clown y la clave trash.",
+    "autor": "Nacho Joshas",
+    "titulo": "La estupidez como camino",
     "date": "2024-12-14T01:00:00.000Z"
   },
   {
@@ -30,7 +60,8 @@ export const programs = [
     "slug": "taller-y-charla-sobre-chiptune",
     "author_bio": "La Once Súper Portable es un colectivo fundado en 2017 por Casa Ruido y Piña Ruda, enfocado en compartir la once con música Chiptune (máquinas, consolas, juguetes). Cofundado por Juan Pablo Polanco (BLUU), realiza intervenciones físicas y digitales.",
     "autor": "Juan Pablo Polanco",
-    "titulo": "Taller y Charla sobre Chiptune"
+    "titulo": "Taller y Charla sobre Chiptune",
+    "date": "2024-12-13T21:00:00.000Z"
   },
   {
     "eje": "Hardware, tácticas y materialidad",
@@ -45,7 +76,8 @@ export const programs = [
     "slug": "hazlo-tu-mismx-herramientas-para-montar-tu-propio-servidor-para-archivo-y-fanzines",
     "author_bio": "Soy Yuko, Edito 404 fanzine (que se distribuye en formato fisico), Formo parte de Fanzine Club (www.fanzineclub.com), Hago ruido y voz en WwW (www.wvvw.bandcamp.com)Trabajo en el area de tecnologia, administradora de servidores UNIX.",
     "autor": "Yuko",
-    "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines."
+    "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines.",
+    "date": "2024-12-14T00:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -246,21 +278,6 @@ export const programs = [
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "sala": "piso 2",
-    "keywords": "cognicion, algoritmos, rrss",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "La naturaleza de la guerra evoluciona, pasamos de la guerra kinética, a las guerras híbridas, hasta un nuevo territorio de batalla: la cognición. La subjetividad misma se ve intervenida y atacada, algoritmos y redes sociales se vuelven armas en una guerra de escala y velocidad sin precedentes, empleadas con el objetivo de erosionar el pensamiento crítico, socavar la confianza en las instituciones y fragmentar el tejido social.Comprender estos mecanismos no es solo un desafío, sino una necesidad colectiva. La percepción de la realidad, nuestras creencias y emociones están siendo manipuladas.  La batalla se está dando en el núcleo mismo de la subjetividad. ¿Cómo funcionan estos mecanismos? ¿Cómo podemos recuperar el control sobre nuestra propia mente?",
-    "slug": "guerra-cognitiva-subjetividad-y-algoritmos",
-    "author_bio": "Psicóloga, investigadora y artista argentina, con foco interdisciplinar, articula teoría crítica, y sensibilidad contemporánea, abordando los cruces entre percepción, poder y tecnologías digitales que se despliegan en los bordes entre lo simbólico y lo político. Co-directora de la diplomatura en inteligencia artificial aplicada a las artes multimediales en la UNA. (Universidad Nacional de las Artes)",
-    "autor": "Isha Verdeazul",
-    "titulo": "Guerra Cognitiva: subjetividad y algoritmos",
-    "date": "2024-12-14T21:00:00.000Z"
-  },
-  {
-    "eje": "Política, ética y aceleracionismo",
-    "mesa": "",
-    "sala": "subte",
     "keywords": "Hackerspace, cultura, activismo",
     "tipo": [
       "charla"
@@ -270,7 +287,22 @@ export const programs = [
     "author_bio": "Hackerspace Santiago es un taller de trabajo colaborativo, un espacio fisico para el aprendizaje, la experimentacion y el compartir en comunidad, que nace en agosto del año 2023 con la finalidad de establecer un hackerspace en la capital de Santiago y poder dar continuidad a las actividades en torno al software libre y la cultura hacker.",
     "autor": "Hackerspace Santiago",
     "titulo": "Del teclado a la asamblea: Cultura hacker desde lo virtual a lo material",
-    "date": "2024-12-14T20:00:00.000Z"
+    "date": "2024-12-14T16:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "sala": "piso 2",
+    "keywords": "capa 8, OWASP, UX design",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Charla sobre la Capa 8 (el usuario) y la ciberseguridad. Explora cómo el diseño UX es una defensa clave, analizando patrones que amplifican riesgos y buenas prácticas para prevenirlos. Se usará el OWASP Top 10 para integrar seguridad desde el diseño.",
+    "slug": "la-capa-8-es-el-usuario",
+    "author_bio": "Diseñadora UX con +6 años en ciberseguridad, real estate, tech legal, farma y seguros. Se enfoca en la intersección UX/ciberseguridad, productos complejos y centrados en personas. Docente (UNLa), Lic. en Diseño y Esp. en Medios y Tecnologías Pictóricas.",
+    "autor": "Irina Sidorowicz",
+    "titulo": "La capa 8 es el usuario",
+    "date": "2024-12-14T17:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -285,6 +317,21 @@ export const programs = [
     "author_bio": "Artista medial con formación en Derecho y Estética. Investiga los cruces políticos y territoriales en la tecnología de la imagen, usando modelado 3D, programación láser y generación procedimental. Reflexiona sobre el imaginario latinoamericano. Nombrado en ISEA, Ars Electronica y CIFO 2025.",
     "autor": "Cristóbal Parra",
     "titulo": "Un cielo rojo. Imágenes, apropiación y desvío de técnicas en Latinoamérica",
+    "date": "2024-12-14T18:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "sala": "piso 1",
+    "keywords": "DMARC, hacking",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "anti enseña como se hackea un dominio sin DMARC y como hacerse pasar por el gobierno",
+    "slug": "hackeando-dmarc",
+    "author_bio": "anti hackea desde los 3 añitos, comenzó a usar linux el 2020 y no se ha bajado de eso; actualmente hackea en varias empresas y es cofundador de su propia startup de seguridad ofensiva e infraestructura.",
+    "autor": "4nt1",
+    "titulo": "Hackeando DMARC",
     "date": "2024-12-14T18:00:00.000Z"
   },
   {
@@ -318,22 +365,22 @@ export const programs = [
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "sala": "piso 2",
-    "keywords": "identidad, disciplina, risas",
+    "keywords": "-",
     "tipo": [
       "charla"
     ],
-    "resumen": "Charla de arte contra el disciplinamiento. Propone ofender identidades manufacturadas para desarmar al poder que glorifica al individuo y destruye lo comunitario. La clave es reírse de la propia estupidez, la solemnidad y el consumo identitario.",
-    "slug": "la-estupidez-como-camino",
-    "author_bio": "Estudió cine, actuación, dirección de arte y trabaja como editor/animador. Su arte combina todo con dibujo y pintura. Crea personajes y contenido online/en vivo, centrado en el ridículo, el clown y la clave trash.",
-    "autor": "Nacho Joshas",
-    "titulo": "La estupidez como camino",
-    "date": "2024-12-14T18:00:00.000Z"
+    "resumen": "Being “chronically online” is a political condition: building parallel private systems isn’t enough if public power remains with those who shape our constraints. The proposal is a two-front strategy: directly intervene in politics using verifiable technologies to incentivize and prove collective action, and secure hardware sovereignty because without material control there’s no real technological freedom. The think2earn project illustrates how technical skills can become executable protocols for reclaiming resources, rejecting techno-solutionism in favor of pragmatic, material political action.",
+    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty",
+    "author_bio": "I grew up in post-communist, neocommunist Romania, where I engaged with politics as a student council representative. I studied Politics, Psychology, Law, and Economics in the Netherlands. I finished an MSc in Information Studies, where I classified emotions from EEG data, and an MSc in Forensic Science, with a thesis on explainable deepfake detection in videos. I am now working on using deep tech not for control, but as a tool for building autonomous systems of political and material sovereignty. With collaborators, think2earn has won 10 prizes across 8 hackathons, grants from NEAR and Ocean.",
+    "autor": "Carol Calin",
+    "titulo": "Hacking the State: A Two-Front War for Hardware and Political Sovereignty",
+    "date": "2024-12-14T22:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
-    "sala": "subte",
-    "keywords": "",
+    "sala": "piso 2",
+    "keywords": "-",
     "tipo": [
       "charla"
     ],
@@ -342,67 +389,37 @@ export const programs = [
     "author_bio": "Ethereum Foundation researcher, founder of Bordel Hackerspace in Prague. A hacker active in decentralized systems, hardware and art (proofof.cat), embracing FOSS and living 5+ years unbanked.",
     "autor": "Mario",
     "titulo": "Applying cryptoanarchy in individual and communal sovereignty",
-    "date": "2024-12-14T22:00:00.000Z"
+    "date": "2024-12-14T23:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "sala": "piso 2",
+    "keywords": "-",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Nuestra condición Crónicamente Online es política. Esta charla propone una guerra en dos frentes para reclamar el poder: 1) Política, incentivando la acción legislativa con tecnología de privacidad (ZK-proofs). 2) Hardware, logrando soberanía controlando la producción material, desde chips a desfibriladores (ej. think2earn).",
+    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty-1",
+    "author_bio": "Sociólogo rumano con formación en Política, Leyes y Psicología. Posee MSc en Info. Studies y Ciencia Forense (detección deepfake). Trabaja en deep tech para construir sistemas autónomos de soberanía política/material. Su proyecto think2earn ha ganado 10 premios.",
+    "autor": "Aamir",
+    "titulo": "Hacking the State: A Two-Front War for Hardware and Political Sovereignty",
+    "date": "2024-12-15T00:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
     "sala": "subte",
     "keywords": "",
     "tipo": [
       "charla"
     ],
-    "resumen": "Nuestra condición Crónicamente Online es política. Esta charla propone una guerra en dos frentes para reclamar el poder: 1) Política, incentivando la acción legislativa con tecnología de privacidad (ZK-proofs). 2) Hardware, logrando soberanía controlando la producción material, desde chips a desfibriladores (ej. think2earn).",
-    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty",
-    "author_bio": "Sociólogo rumano con formación en Política, Leyes y Psicología. Posee MSc en Info. Studies y Ciencia Forense (detección deepfake). Trabaja en deep tech para construir sistemas autónomos de soberanía política/material. Su proyecto think2earn ha ganado 10 premios.",
-    "autor": "Aamir",
-    "titulo": "Hacking the State: A Two-Front War for Hardware and Political Sovereignty",
-    "date": "2024-12-14T23:00:00.000Z"
-  },
-  {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "sala": "piso 2",
-    "keywords": "twiter, presidente, phishing",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "El proyecto surgió al criticar la adicción a Twitter del presidente Milei, preguntando: ¿cómo medirlo? Se creó un sitio web para analizar la inmensa actividad del mandatario en la red, convirtiéndose en un referente sobre lo que la actividad pública de los líderes revela de sus vidas.",
-    "slug": "el-presidente-adicto-a-twitter",
-    "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
-    "autor": "Nulo",
-    "titulo": "El presidente adicto a Twitter",
-    "date": "2024-12-14T22:00:00.000Z"
-  },
-  {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "sala": "piso 2",
-    "keywords": "capa 8, OWASP, UX design",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "Charla sobre la Capa 8 (el usuario) y la ciberseguridad. Explora cómo el diseño UX es una defensa clave, analizando patrones que amplifican riesgos y buenas prácticas para prevenirlos. Se usará el OWASP Top 10 para integrar seguridad desde el diseño.",
-    "slug": "la-capa-8-es-el-usuario",
-    "author_bio": "Diseñadora UX con +6 años en ciberseguridad, real estate, tech legal, farma y seguros. Se enfoca en la intersección UX/ciberseguridad, productos complejos y centrados en personas. Docente (UNLa), Lic. en Diseño y Esp. en Medios y Tecnologías Pictóricas.",
-    "autor": "Irina Sidorowicz",
-    "titulo": "La capa 8 es el usuario",
-    "date": "2024-12-14T17:00:00.000Z"
-  },
-  {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "sala": "piso 2",
-    "keywords": "DMARC, hacking",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "anti enseña como se hackea un dominio sin DMARC y como hacerse pasar por el gobierno",
-    "slug": "hackeando-dmarc",
-    "author_bio": "anti hackea desde los 3 añitos, comenzó a usar linux el 2020 y no se ha bajado de eso; actualmente hackea en varias empresas y es cofundador de su propia startup de seguridad ofensiva e infraestructura.",
-    "autor": "4nt1",
-    "titulo": "Hackeando DMARC",
-    "date": "2024-12-14T15:00:00.000Z"
+    "resumen": "",
+    "slug": "dispositivos-iot-como-vectores-de-ataque",
+    "author_bio": "",
+    "autor": "Prey",
+    "titulo": "dispositivos IoT como vectores de ataque",
+    "date": "2024-12-14T19:00:00.000Z"
   },
   {
     "eje": "Hacking y seguridad ofensiva",
@@ -417,22 +434,7 @@ export const programs = [
     "author_bio": "Matías: Especialista en seguridad informática argentino y experto en code review. Disfruta los CTF y el software libre, al que contribuye. Usa y mantiene proyectos FOSS, desconfiando de soluciones propietarias.",
     "autor": "Matías Lang",
     "titulo": "Real-life supply-chain attacks",
-    "date": "2024-12-14T18:00:00.000Z"
-  },
-  {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "sala": "piso 2",
-    "keywords": "",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "",
-    "slug": "dispositivos-iot-como-vectores-de-ataque",
-    "author_bio": "",
-    "autor": "Prey",
-    "titulo": "dispositivos IoT como vectores de ataque",
-    "date": "2024-12-14T19:00:00.000Z"
+    "date": "2024-12-14T23:00:00.000Z"
   },
   {
     "eje": "Hacking y seguridad ofensiva",
@@ -448,7 +450,22 @@ export const programs = [
     "author_bio": "Investigador en seguridad y fundador de ZoqueLabs, un laboratorio de inteligencia de amenazas con raíces en América Latina. Ha trabajado en análisis forense, malware y monitoreo de redes en contextos de derechos humanos. Sus investigaciones combinan hacking, OSINT y análisis técnico profundo, con una mirada política y regional sobre la seguridad digital. Publica regularmente en zoquelabs.xyz sobre temas de explotación, spyware e inteligencia de amenazas.",
     "autor": "And3 (ZoqueLabs)",
     "titulo": "De cero a exploit: anatomía forense de un bug en Android",
-    "date": "2024-12-14T20:00:00.000Z"
+    "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "sala": "subte",
+    "keywords": "twiter, presidente, phishing",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "El proyecto surgió al criticar la adicción a Twitter del presidente Milei, preguntando: ¿cómo medirlo? Se creó un sitio web para analizar la inmensa actividad del mandatario en la red, convirtiéndose en un referente sobre lo que la actividad pública de los líderes revela de sus vidas.",
+    "slug": "el-presidente-adicto-a-twitter",
+    "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
+    "autor": "Nulo",
+    "titulo": "El presidente adicto a Twitter",
+    "date": "2024-12-14T21:00:00.000Z"
   }
 ];
 
