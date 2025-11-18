@@ -67,6 +67,21 @@ export const programs = [
     "eje": "Hardware, tácticas y materialidad",
     "mesa": "",
     "sala": "piso 1",
+    "keywords": "",
+    "tipo": [
+      "taller"
+    ],
+    "resumen": "Taller enfocado en la reutilización de placas LED RGB P4 de 64×32 píxeles, recuperadas de paraderos vandalizados durante el estallido social. Cupo máximo: 10 personas, por orden de llegada. Cada participante debe traer un notebook con puerto USB-A.",
+    "slug": "taller-de-programacion-de-visuales-raspberry-pico",
+    "author_bio": "Licenciado en Artes Plásticas de la Universidad de Chile 2008, con estudios previos e incompletos en Ingeniería Informática. Su obra se destaca por la utilización de otras disciplinas, provenientes de las ciencias exactas aunque también vinculadas a otras artes, especialmente la poesía. Complementa su profesión de artista trabajando como programador y consultor en informática, y visualista en proyectos musicales.",
+    "autor": "Nicolás Briceño",
+    "titulo": "Taller de programación de visuales raspberry pico",
+    "date": "2024-12-13T22:00:00.000Z"
+  },
+  {
+    "eje": "Hardware, tácticas y materialidad",
+    "mesa": "",
+    "sala": "piso 1",
     "keywords": "servidores, fanzine,",
     "tipo": [
       "charla",
