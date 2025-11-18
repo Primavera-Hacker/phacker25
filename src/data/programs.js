@@ -369,21 +369,6 @@ export const programs = [
     "tipo": [
       "charla"
     ],
-    "resumen": "Being “chronically online” is a political condition: building parallel private systems isn’t enough if public power remains with those who shape our constraints. The proposal is a two-front strategy: directly intervene in politics using verifiable technologies to incentivize and prove collective action, and secure hardware sovereignty because without material control there’s no real technological freedom. The think2earn project illustrates how technical skills can become executable protocols for reclaiming resources, rejecting techno-solutionism in favor of pragmatic, material political action.",
-    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty",
-    "author_bio": "I grew up in post-communist, neocommunist Romania, where I engaged with politics as a student council representative. I studied Politics, Psychology, Law, and Economics in the Netherlands. I finished an MSc in Information Studies, where I classified emotions from EEG data, and an MSc in Forensic Science, with a thesis on explainable deepfake detection in videos. I am now working on using deep tech not for control, but as a tool for building autonomous systems of political and material sovereignty. With collaborators, think2earn has won 10 prizes across 8 hackathons, grants from NEAR and Ocean.",
-    "autor": "Carol Calin",
-    "titulo": "Hacking the State: A Two-Front War for Hardware and Political Sovereignty",
-    "date": "2024-12-14T22:00:00.000Z"
-  },
-  {
-    "eje": "Política, ética y aceleracionismo",
-    "mesa": "",
-    "sala": "piso 2",
-    "keywords": "-",
-    "tipo": [
-      "charla"
-    ],
     "resumen": "Digital cages we locked ourselves into are very ironic outcome of hyperconnected technologies that should instead empower individuals and communities. Proprietary tech from corporations and surveillance from governments never been more pervasive and it's becoming impossible to deflect it's patterns of control. Another option is to refuse the captured system and opt out into the parallel one, embracing FOSS, decentralization and freedom. Let's explore technologies we can use as an actual tools without serving third parties, building independent community coordination and distributed systems that cannot be controlled. Join us to share your stack and tips on surviving without proprietary technologies, banks and big brothers.",
     "slug": "applying-cryptoanarchy-in-individual-and-communal-sovereignty",
     "author_bio": "Ethereum Foundation researcher, founder of Bordel Hackerspace in Prague. A hacker active in decentralized systems, hardware and art (proofof.cat), embracing FOSS and living 5+ years unbanked.",
@@ -400,7 +385,7 @@ export const programs = [
       "charla"
     ],
     "resumen": "Nuestra condición Crónicamente Online es política. Esta charla propone una guerra en dos frentes para reclamar el poder: 1) Política, incentivando la acción legislativa con tecnología de privacidad (ZK-proofs). 2) Hardware, logrando soberanía controlando la producción material, desde chips a desfibriladores (ej. think2earn).",
-    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty-1",
+    "slug": "hacking-the-state-a-two-front-war-for-hardware-and-political-sovereignty",
     "author_bio": "Sociólogo rumano con formación en Política, Leyes y Psicología. Posee MSc en Info. Studies y Ciencia Forense (detección deepfake). Trabaja en deep tech para construir sistemas autónomos de soberanía política/material. Su proyecto think2earn ha ganado 10 premios.",
     "autor": "Aamir",
     "titulo": "Hacking the State: A Two-Front War for Hardware and Political Sovereignty",
@@ -414,11 +399,11 @@ export const programs = [
     "tipo": [
       "charla"
     ],
-    "resumen": "",
-    "slug": "dispositivos-iot-como-vectores-de-ataque",
+    "resumen": "This talk shares pratical steps and examples for building attack-capable ESP32 devices, we will also discuss about current firmwares for you to use on it",
+    "slug": "using-iot-devices-as-attack-vectors",
     "author_bio": "",
     "autor": "Prey",
-    "titulo": "dispositivos IoT como vectores de ataque",
+    "titulo": "Using IoT devices as attack vectors",
     "date": "2024-12-14T19:00:00.000Z"
   },
   {
