@@ -67,6 +67,21 @@ export const programs = [
     "eje": "Hardware, tácticas y materialidad",
     "mesa": "",
     "sala": "piso 1",
+    "keywords": "",
+    "tipo": [
+      "taller"
+    ],
+    "resumen": "Taller enfocado en la reutilización de placas LED RGB P4 de 64×32 píxeles, recuperadas de paraderos vandalizados durante el estallido social. Cupo máximo: 10 personas, por orden de llegada. Cada participante debe traer un notebook con puerto USB-A.",
+    "slug": "taller-de-programacion-de-visuales-raspberry-pico",
+    "author_bio": "Licenciado en Artes Plásticas de la Universidad de Chile 2008, con estudios previos e incompletos en Ingeniería Informática. Su obra se destaca por la utilización de otras disciplinas, provenientes de las ciencias exactas aunque también vinculadas a otras artes, especialmente la poesía. Complementa su profesión de artista trabajando como programador y consultor en informática, y visualista en proyectos musicales.",
+    "autor": "Nicolás Briceño",
+    "titulo": "Taller de programación de visuales raspberry pico",
+    "date": "2024-12-13T22:00:00.000Z"
+  },
+  {
+    "eje": "Hardware, tácticas y materialidad",
+    "mesa": "",
+    "sala": "piso 1",
     "keywords": "servidores, fanzine,",
     "tipo": [
       "charla",
@@ -450,6 +465,21 @@ export const programs = [
     "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
     "autor": "Nulo",
     "titulo": "El presidente adicto a Twitter",
+    "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "sala": "piso 2",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Vamos a ver la infraesteuctura necesaria  para efectuar un ataque a un sistema de informacion utilizando,  tacticas tecnicas y procedimientos comunes  pero integrandolas con tacticas en cognitivewarfare asistidas por agentes de inteligencia artificial. Que es mito? Que es meme? Que es una buena herramienta ? Y q es un riesgo?",
+    "slug": "infraesteuctura-ofensiva-guerra-cognitiva-y-memes",
+    "author_bio": "-",
+    "autor": "mini",
+    "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
     "date": "2024-12-14T21:00:00.000Z"
   }
 ];
