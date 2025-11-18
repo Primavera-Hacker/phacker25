@@ -1,5 +1,4 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
 import EventCard from "../EventCard";
 import programs from "../../data/programs";
 import css from "./DayTable.module.css";
