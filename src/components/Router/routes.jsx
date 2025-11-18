@@ -1,5 +1,4 @@
 import Convocatoria from "../../pages/Convocatoria";
-import Cronograma from "../../pages/Cronograma";
 import Evento from "../../pages/Evento";
 import Manifiesto from "../../pages/Manifiesto";
 import NotFound from "../../pages/NotFound";
@@ -10,7 +9,6 @@ import Programa from "../../pages/Programa";
 export const paths = {
   home: "/",
   convocatoria: "/convocatoria",
-  cronograma: "/cronograma",
   evento: "/evento",
   manifiesto: "/manifiesto",
   conducta: "/codigo-de-conducta",
@@ -28,11 +26,6 @@ export const routes = [
     path: paths.convocatoria,
     component: <Convocatoria />,
     meta: { title: "PHACKER:25 | Convocatoria", description: "" },
-  },
-  {
-    path: paths.cronograma,
-    component: <Cronograma />,
-    meta: { title: "PHACKER:25 | Cronograma", description: "" },
   },
   {
     path: paths.evento,
