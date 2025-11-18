@@ -435,7 +435,7 @@ export const programs = [
     "author_bio": "Investigador en seguridad y fundador de ZoqueLabs, un laboratorio de inteligencia de amenazas con raíces en América Latina. Ha trabajado en análisis forense, malware y monitoreo de redes en contextos de derechos humanos. Sus investigaciones combinan hacking, OSINT y análisis técnico profundo, con una mirada política y regional sobre la seguridad digital. Publica regularmente en zoquelabs.xyz sobre temas de explotación, spyware e inteligencia de amenazas.",
     "autor": "And3 (ZoqueLabs)",
     "titulo": "De cero a exploit: anatomía forense de un bug en Android",
-    "date": "2024-12-14T21:00:00.000Z"
+    "date": "2024-12-14T22:00:00.000Z"
   },
   {
     "eje": "Hacking y seguridad ofensiva",
