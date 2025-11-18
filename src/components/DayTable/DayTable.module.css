@@ -43,7 +43,7 @@
   /* Desktop event cell - stack multiple events */
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 1px 0;
 }
 
 .mobileEventCell {
@@ -70,7 +70,6 @@
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: auto 1fr;
-    gap: 0;
   }
 
   .headerHoras {
@@ -102,7 +101,7 @@
     /* Show mobile event cell */
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 2px;
     grid-column: 2;
   }
 }
