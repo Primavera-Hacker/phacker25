@@ -12,7 +12,7 @@ export default function FloatingNav({ menuOpen, setMenuOpen }) {
   const { locale } = useLocale();
 
   const evento = intl.formatMessage({ id: "evento" });
-  const convocatoria = intl.formatMessage({ id: "convocatoria" });
+  const programa = intl.formatMessage({ id: "programa" });
   const manifiesto = intl.formatMessage({ id: "manifiesto" });
 
   // Helper para crear paths localizados
@@ -30,11 +30,8 @@ export default function FloatingNav({ menuOpen, setMenuOpen }) {
         <Link className={cn(css.navLink)} to={getLocalizedPath(paths.evento)}>
           {evento}
         </Link>
-        <Link
-          className={cn(css.navLink)}
-          to={getLocalizedPath(paths.convocatoria)}
-        >
-          {convocatoria}
+        <Link className={cn(css.navLink)} to={getLocalizedPath(paths.programa)}>
+          {programa}
         </Link>
         <Link
           className={cn(css.navLink)}

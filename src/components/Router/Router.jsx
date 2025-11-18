@@ -7,11 +7,12 @@ const Router = () => (
   <Routes>
     {routes.map((route) => {
       const isHome = route.path === paths.home;
+      const isPrograma = route.path === paths.programa;
       // Generar rutas tanto para español como para inglés
       return (
         <Route
           key={route.path}
-          element={<Layout noPadding={isHome} />}
+          element={<Layout noPadding={isHome} noPaddingX={isPrograma} />}
         >
           {/* Ruta en español (default) */}
           <Route

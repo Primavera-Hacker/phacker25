@@ -30,18 +30,12 @@ const Nav = () => {
         <SobreMenu />
 
         <nav className={css.menuMobile}>
-          <div className={cn(css.rect, "bgRed")} style={{ flex: 1 }} />
-          <div
-            className={cn(css.rect, "bgGrey200 bgPinkLines")}
-            style={{ flex: 5 }}
-          />
-          <div
-            className={cn(css.rect, "bgGrey900 bgPinkLines")}
-            style={{ flex: 3 }}
-          />
+          <div className={cn(css.rect, "bgGrey900")} style={{ flex: 1 }} />
+          <div className={cn(css.rect, "bgGrey900 ")} style={{ flex: 5 }} />
+
           {!isHome && (
             <button
-              className={css.logoMobile}
+              className={cn(css.logoMobile)}
               onClick={() => {
                 setMenuOpen(false);
                 navigate(paths.home);
@@ -52,7 +46,7 @@ const Nav = () => {
           )}
           <button
             onClick={() => setMenuOpen((state) => !state)}
-            className={cn("text-link-primary px4XS", css.primaryLink)}
+            className={cn("text-link-primary px4XS bgRed", css.primaryLink)}
           >
             {menuOpen ? cerrar : "MENU"}
           </button>

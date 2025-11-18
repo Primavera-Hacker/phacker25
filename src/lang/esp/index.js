@@ -1,6 +1,7 @@
 const esp_messages = {
   evento: "evento",
   convocatoria: "convocatoria",
+  programa: "programa",
   manifiesto: "manifiesto",
   codigo: "códigos de convivencia",
   archivo: "archivo phacker",
