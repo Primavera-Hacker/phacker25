@@ -41,3 +41,12 @@
   font-size: var(--text-s);
   padding-bottom: var(--space-s);
 }
+
+.sala {
+  display: none;
+}
+@media (max-width: 900px) {
+  .sala {
+    display: inline;
+  }
+}

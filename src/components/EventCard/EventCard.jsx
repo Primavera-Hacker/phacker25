@@ -3,11 +3,16 @@ import css from "./EventCard.module.css";
 
 const MAX_BODY = 180;
 
-const EventCard = ({ titulo, eje, autor, resumen, onClick, mesa }) => {
+const EventCard = ({ titulo, eje, autor, resumen, onClick, mesa, sala }) => {
   return (
     <div className={css.root} onClick={onClick}>
       <div className={classNames(css.tags, "text-eyebrow text-uppercase")}>
-        <span className={classNames(css.category, "bgGreenLines")}>{eje}</span>
+        <span className={classNames(css.category, "bgGreenLines")}>
+          <span className={css.sala}>
+            <strong>{sala}</strong> —
+          </span>{" "}
+          {eje}
+        </span>
         <span className={css.author}>{autor}</span>
       </div>
 
