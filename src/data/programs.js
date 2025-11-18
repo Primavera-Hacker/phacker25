@@ -466,6 +466,21 @@ export const programs = [
     "autor": "Nulo",
     "titulo": "El presidente adicto a Twitter",
     "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "sala": "piso 2",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Vamos a ver la infraesteuctura necesaria  para efectuar un ataque a un sistema de informacion utilizando,  tacticas tecnicas y procedimientos comunes  pero integrandolas con tacticas en cognitivewarfare asistidas por agentes de inteligencia artificial. Que es mito? Que es meme? Que es una buena herramienta ? Y q es un riesgo?",
+    "slug": "infraesteuctura-ofensiva-guerra-cognitiva-y-memes",
+    "author_bio": "-",
+    "autor": "mini",
+    "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
+    "date": "2024-12-14T21:00:00.000Z"
   }
 ];
 
