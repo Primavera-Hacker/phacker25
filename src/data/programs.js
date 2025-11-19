@@ -460,7 +460,7 @@ export const programs = [
     "tipo": [
       "charla"
     ],
-    "resumen": "El proyecto surgió al criticar la adicción a Twitter del presidente Milei, preguntando: ¿cómo medirlo? Se creó un sitio web para analizar la inmensa actividad del mandatario en la red, convirtiéndose en un referente sobre lo que la actividad pública de los líderes revela de sus vidas.",
+    "resumen": "¿Como se mide un presidente adicto a Twitter? Esa es la pregunta que me hice cuando vi que el presidente argentino Javier Milei estaba siendo criticado en Twitter por la aparente cantidad inmensa de interacciones que hacia en la red social. Lo que inició como un prototipo de página web de un fin de semana se convirtió en un proyecto comunitario de análisis de datos públicos, utilizado por medios nacionales e internacionales. ¿Que nos dice la actividad pública de los que controlan nuestros países sobre su vida?",
     "slug": "el-presidente-adicto-a-twitter",
     "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
     "autor": "Nulo",
