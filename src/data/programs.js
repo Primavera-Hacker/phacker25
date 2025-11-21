@@ -13,7 +13,7 @@ export const programs = [
     "resumen": "La naturaleza de la guerra evoluciona, pasamos de la guerra kinética, a las guerras híbridas, hasta un nuevo territorio de batalla: la cognición. La subjetividad misma se ve intervenida y atacada, algoritmos y redes sociales se vuelven armas en una guerra de escala y velocidad sin precedentes, empleadas con el objetivo de erosionar el pensamiento crítico, socavar la confianza en las instituciones y fragmentar el tejido social.Comprender estos mecanismos no es solo un desafío, sino una necesidad colectiva. La percepción de la realidad, nuestras creencias y emociones están siendo manipuladas.  La batalla se está dando en el núcleo mismo de la subjetividad. ¿Cómo funcionan estos mecanismos? ¿Cómo podemos recuperar el control sobre nuestra propia mente?",
     "slug": "guerra-cognitiva-subjetividad-y-algoritmos",
     "author_bio": "Psicóloga, investigadora y artista argentina, con foco interdisciplinar, articula teoría crítica, y sensibilidad contemporánea, abordando los cruces entre percepción, poder y tecnologías digitales que se despliegan en los bordes entre lo simbólico y lo político. Co-directora de la diplomatura en inteligencia artificial aplicada a las artes multimediales en la UNA. (Universidad Nacional de las Artes)",
-    "autor": "Isha Verdeazul",
+    "autor": "Isha Kim",
     "titulo": "Guerra Cognitiva: subjetividad y algoritmos",
     "date": "2024-12-13T22:00:00.000Z"
   },
@@ -267,10 +267,10 @@ export const programs = [
     "tipo": [
       "charla"
     ],
-    "resumen": "-",
+    "resumen": "En esta charla abordaremos diversos aspectos relacionados con el hardware abierto y su rol creciente en el ecosistema tecnológico actual. Exploraremos las implicancias de desarrollar tecnologías abiertas, especialmente en el contexto científico, y revisaremos su impacto en la investigación, la reproducibilidad y la innovación colaborativa.Además, presentaremos las distintas licencias existentes para proyectos de hardware abierto, junto con los procesos necesarios para licenciar y documentar correctamente nuestros desarrollos. También revisaremos algunos ejemplos de proyectos basados en iniciativas abiertas y las comunidades globales que impulsan este movimiento.",
     "slug": "hardware-abierto-para-las-ciencias",
-    "author_bio": "-",
-    "autor": "Wladimir Araya",
+    "author_bio": "iow Labs es un laboratorio dedicado al desarrollo de tecnologías abiertas, con más de cinco años de experiencia en proyectos de instrumentación científica, telemetría y sistemas IoT. Hemos colaborado con diversas instituciones y centros de investigación en el diseño y desarollo de instrumentación científica, algunos de los cuales están actualmente en proceso de publicación. Contamos con certificaciones internacionales de hardware abierto y promovemos activamente el uso de tecnologías abiertas como una vía para enfrentar los desafíos actuales en investigación, innovación e industria. Creemos firmemente que el hardware abierto es una herramienta clave para democratizar el desarrollo tecnológico y potenciar la creatividad colectiva.",
+    "autor": "Wladimir Araya (iow Labs)",
     "titulo": "Hardware abierto para las ciencias",
     "date": "2024-12-14T15:00:00.000Z"
   },
