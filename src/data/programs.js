@@ -152,7 +152,7 @@ export const programs = [
     "author_bio": "Estudiantes (Yamna Carrión, Sofía Cartes, etc.) de Diseño Industrial (UDP) interesadas en el cruce de tecnología, humor y diseño de interacción. Crearon AND-Y, un robot que saluda y se ríe, en un taller de máquinas.",
     "autor": "Sofía Cartes",
     "titulo": "AND-Y: un robot buena onda con crisis existencial",
-    "date": "2024-12-14T14:00:00.000Z"
+    "date": "2024-12-14T15:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -167,7 +167,7 @@ export const programs = [
     "author_bio": "Licenciada en Artes Visuales y diplomada en Desarrollo de Videojuegos, desarrolla su obra en torno a los juguetes y la electrónica con una mirada empática hacia las máquinas como otro tipo de ser.",
     "autor": "Isidora Pesce",
     "titulo": "Afectos Mecatrónicos",
-    "date": "2024-12-14T14:00:00.000Z"
+    "date": "2024-12-14T15:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -182,7 +182,7 @@ export const programs = [
     "author_bio": "Moscoso: Compositor, académico UChile, Magíster en Música. Investiga música algorítmica. Weason: Artista visual, Magíster en Artes Mediales. Trabaja con experimentación, crítica en videojuegos y performance digital.",
     "autor": "Felipe Weason y Sean Moscoso",
     "titulo": "ShuffleShuffle (No juegos, tocando códigos). Estrategias, técnicas y tecnologías para la performance audiovisual",
-    "date": "2024-12-14T14:00:00.000Z"
+    "date": "2024-12-14T15:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -227,7 +227,7 @@ export const programs = [
     "author_bio": "Giovanni Volta: Músico, programador y artista visual. Creador del proyecto musical Seikatsu A/V, explora animación 3D, live coding y visuales audio-reactivos (JS/Python). Su música electrónica fusiona géneros como IDM, breakcore y cloud rap.",
     "autor": "Giovanni Volta",
     "titulo": "Cycle of lines Death Life",
-    "date": "2024-12-14T16:00:00.000Z"
+    "date": "2024-12-14T17:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -242,7 +242,7 @@ export const programs = [
     "author_bio": "HAVSTRACTO (Chile, 1999) es un artista visual transdisciplinar de la Patagonia. Integra pintura, foto, video, sonido e IA. Su obra explora las tensiones humano-naturaleza, el extractivismo y el cambio climático, diluyendo límites entre lo físico y virtual",
     "autor": "HAVSTRACTO",
     "titulo": "[53°9′50″ S, 70°55′2″ O /// 51°37′60″ S, 69°13′0″ O]_[207km]",
-    "date": "2024-12-14T16:00:00.000Z"
+    "date": "2024-12-14T17:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -257,7 +257,7 @@ export const programs = [
     "author_bio": "G10R: Artista visual e investigadora (UChile, Duoc UC). Su práctica cruza arte, ecología y tecnología, explorando sensibilidades no antropocéntricas con lenguajes generativos y sensores. Coordina el FabLab UA y codirige un proyecto sobre Mistral.",
     "autor": "G10R",
     "titulo": "Jardín Nacional",
-    "date": "2024-12-14T16:00:00.000Z"
+    "date": "2024-12-14T17:00:00.000Z"
   },
   {
     "eje": "Ciencia y conocimiento",
