@@ -66,6 +66,12 @@ export default function OverlayOpenEvent({ openEvent, setOpenEvent }) {
             <span>
               <strong>{formatSala(openEvent.sala)}</strong>
             </span>
+            {openEvent.hora_ny && (
+              <span> · NY: {openEvent.hora_ny}</span>
+            )}
+            {openEvent.hora_berlin && (
+              <span> · Berlin: {openEvent.hora_berlin}</span>
+            )}
           </div>
           <p className={css.resumen}>{openEvent.resumen}</p>
           {(openEvent.autor || openEvent.bio) && (

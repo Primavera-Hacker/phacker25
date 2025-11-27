@@ -12,7 +12,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 60px 1fr 1fr 1fr;
+  grid-template-columns: 60px 1fr 1fr 1fr 1fr;
   gap: 1px;
 }
 
@@ -78,7 +78,7 @@
   }
 
   .header {
-    /* Hide all desktop headers (Subte, Piso 1, Piso 2) on mobile */
+    /* Hide all desktop headers (Subte, Piso 1, Piso 2, Online) on mobile */
     display: none;
   }
 

@@ -51,7 +51,7 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
   }
 
   // Organizar eventos por sala
-  const salas = ["subte", "piso 1", "piso 2"];
+  const salas = ["subte", "piso 1", "piso 2", "online"];
 
   // Función para obtener la hora de un evento
   const getEventHour = (date) => {
@@ -74,6 +74,7 @@ const DayTable = ({ day, noHeading, onEventClick }) => {
             <div className={css.header}>SUBTE</div>
             <div className={css.header}>SALA.01</div>
             <div className={css.header}>SALA.02</div>
+            <div className={css.header}>ONLINE</div>
           </>
         )}
         {/* Mobile header - always render but hidden on desktop */}

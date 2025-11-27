@@ -5,7 +5,7 @@ const MAX_BODY = 180;
 
 const EventCard = ({ titulo, eje, autor, resumen, onClick, mesa, sala }) => {
   return (
-    <div className={css.root} onClick={onClick}>
+    <div className={css.root} data-online={sala == "online"} onClick={onClick}>
       <div className={classNames(css.tags, "text-eyebrow text-uppercase")}>
         <span className={classNames(css.category, "bgGreenLines")}>
           <span className={css.sala}>
