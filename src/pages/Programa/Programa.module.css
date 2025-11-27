@@ -5,7 +5,7 @@
 
 .stickyHeader {
   display: grid;
-  grid-template-columns: 60px 1fr 1fr 1fr;
+  grid-template-columns: 60px 1fr 1fr 1fr 1fr;
   gap: 0;
   position: sticky;
   top: var(--element-height-sobremenu);

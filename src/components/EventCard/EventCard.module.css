@@ -3,6 +3,10 @@
   background: #e9e9e9;
 }
 
+.root[data-online="true"] {
+  background: #d4d4d4;
+}
+
 .root:hover {
   background: #f7f6f6;
 }

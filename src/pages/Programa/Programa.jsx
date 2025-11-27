@@ -41,6 +41,7 @@ const Programa = () => {
         <div className={css.header}>SUBTE</div>
         <div className={css.header}>SALA.01</div>
         <div className={css.header}>SALA.02</div>
+        <div className={css.header}>ONLINE</div>
       </div>
       <DayTable day="viernes" onEventClick={handleEventClick} noHeading />
       <DayTable day="sabado" noHeading onEventClick={handleEventClick} />

@@ -139,6 +139,9 @@ function csvToJson(csvPath) {
     delete item.dia;
     delete item.horario;
 
+    // Preservar hora_ny y hora_berlin (ya están en el objeto desde el CSV)
+    // Preservar sala (subte, piso 1, piso 2, online)
+
     // Convertir tipo a array
     if (item.tipo) {
       // Separar por coma y limpiar espacios

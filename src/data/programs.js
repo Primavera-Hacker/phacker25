@@ -5,6 +5,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "cognicion, algoritmos, rrss",
     "tipo": [
@@ -20,6 +22,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "Tecnopolitica",
     "tipo": [
@@ -35,6 +39,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "identidad, disciplina, risas",
     "tipo": [
@@ -50,6 +56,8 @@ export const programs = [
   {
     "eje": "Hardware, tácticas y materialidad",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "Chiptune, gameboy, music",
     "tipo": [
@@ -66,6 +74,8 @@ export const programs = [
   {
     "eje": "Hardware, tácticas y materialidad",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "",
     "tipo": [
@@ -81,6 +91,8 @@ export const programs = [
   {
     "eje": "Hardware, tácticas y materialidad",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "servidores, fanzine,",
     "tipo": [
@@ -97,6 +109,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "robot, arte, instalacion, compañia, cyborg",
     "tipo": [
@@ -112,6 +126,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "Instalacion, sol, sonido, fotovoltaico",
     "tipo": [
@@ -127,6 +143,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "Escaner, instalación, vigilancia",
     "tipo": [
@@ -142,6 +160,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "robot, interacción, arduino",
     "tipo": [
@@ -157,6 +177,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "juguetes, vínculo, afecto, animatronic y humano-máquina.",
     "tipo": [
@@ -172,6 +194,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 1: Presencia, objetualidad y re interpretación tecnologica",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "videojuego, arte, interaccion, proceso",
     "tipo": [
@@ -187,6 +211,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "Glitch, no, python",
     "tipo": [
@@ -202,6 +228,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "vigilancia, tracking, opencv",
     "tipo": [
@@ -217,6 +245,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "Audiovisual, musica, paisaje sonoro",
     "tipo": [
@@ -232,6 +262,8 @@ export const programs = [
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "glitch, audiovisual, paisaje",
     "tipo": [
@@ -241,12 +273,13 @@ export const programs = [
     "slug": "53950-s-70552-o-513760-s-69130-o207km",
     "author_bio": "HAVSTRACTO (Chile, 1999) es un artista visual transdisciplinar de la Patagonia. Integra pintura, foto, video, sonido e IA. Su obra explora las tensiones humano-naturaleza, el extractivismo y el cambio climático, diluyendo límites entre lo físico y virtual",
     "autor": "HAVSTRACTO",
-    "titulo": "[53°9′50″ S, 70°55′2″ O /// 51°37′60″ S, 69°13′0″ O]_[207km]",
-    "date": "2024-12-14T17:00:00.000Z"
+    "titulo": "[53°9′50″ S, 70°55′2″ O /// 51°37′60″ S, 69°13′0″ O]_[207km]"
   },
   {
     "eje": "Arte y estética computacional",
     "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "clima, visualizacion información, python",
     "tipo": [
@@ -262,6 +295,8 @@ export const programs = [
   {
     "eje": "Ciencia y conocimiento",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "-",
     "tipo": [
@@ -277,6 +312,8 @@ export const programs = [
   {
     "eje": "Ciencia y conocimiento",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "Cyborg, online, sociedad control",
     "tipo": [
@@ -292,6 +329,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "Hackerspace, cultura, activismo",
     "tipo": [
@@ -307,6 +346,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "capa 8, OWASP, UX design",
     "tipo": [
@@ -322,6 +363,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "Teoria de la imagen, latinoamerica",
     "tipo": [
@@ -337,6 +380,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "DMARC, hacking",
     "tipo": [
@@ -352,6 +397,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 1",
     "keywords": "sociedad, control, red",
     "tipo": [
@@ -367,6 +414,8 @@ export const programs = [
   {
     "eje": "",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "",
     "keywords": "",
     "tipo": [],
@@ -374,11 +423,27 @@ export const programs = [
     "slug": "habito-el-lado-tecnico-del-activismo-politico",
     "author_bio": "",
     "autor": "",
-    "titulo": "Habito el lado técnico del activismo político.\r,"
+    "titulo": "Habito el lado técnico del activismo político."
+  },
+  {
+    "eje": "",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "",
+    "keywords": "",
+    "tipo": [],
+    "resumen": "",
+    "slug": "la",
+    "author_bio": "",
+    "autor": "",
+    "titulo": ","
   },
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "-",
     "tipo": [
@@ -394,6 +459,8 @@ export const programs = [
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "-",
     "tipo": [
@@ -409,6 +476,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "",
     "tipo": [
@@ -424,6 +493,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "supply-chain attack, defensa, analisis de riesgos",
     "tipo": [
@@ -439,6 +510,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "",
     "tipo": [
@@ -455,6 +528,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "subte",
     "keywords": "twiter, presidente, phishing",
     "tipo": [
@@ -470,6 +545,8 @@ export const programs = [
   {
     "eje": "Hacking y seguridad ofensiva",
     "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
     "sala": "piso 2",
     "keywords": "",
     "tipo": [
@@ -481,6 +558,108 @@ export const programs = [
     "autor": "mini",
     "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
     "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "hora_ny": "12:00",
+    "hora_berlin": "18:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Esta charla propone un recorrido por la experiencia de Descuartizadora, una colectiva feminista decolonial que desde 2016 ha trabajado en el cruce entre hacktivismo, pedagogía y arte digital en Abya Yala. A través    talleres de ciberseguridad comunitaria, creación de páginas web, fanzines y encuentros con radios comunitarias e iniciativas indígenas, la colectiva buscó reapropiar las tecnologías desde una mirada crítica, afectiva y situada. La charla reflexiona sobre cómo la red se convierte en un campo de disputa simbólica y material, donde las infraestructuras reproducen violencias de género, extractivismo y vigilancia, pero también abren espacios para la resistencia y la imaginación.",
+    "slug": "descuartizar-la-red-utopias-de-un-hacktivismo-comunitario",
+    "author_bio": "Educadorx y artista tecnopolíticx que transita entre Chile y el Reino Unido. Integró la colectiva Descuartizadora, dedicada a la educación tecnológica feminista y anticolonial en América Latina. Su trabajo se sitúa entre el arte, la pedagogía y la infraestructura libre, explorando el hacktivismo como práctica afectiva, de resistencia y memoria. Actualmente enseña informática y colabora en proyectos de tecnologías libres.",
+    "autor": "chixi proxy",
+    "titulo": "Descuartizar la Red: utopías de un hacktivismo comunitario",
+    "date": "2024-12-14T17:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "13:00",
+    "hora_berlin": "19:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "El entramado internacional de organismos desplegado por el poder economico durante decadas analiza, estrategiza y conspira para expandir su dominacion al mundo. Como organizamos una oposicion efectiva, descentralizada y asimetrica para la disputa del futuro. Un marco tecnico para las operaciones informativas.",
+    "slug": "cypherops-denegacion-distribuida-al-poder",
+    "author_bio": "Americo Flores, es programador y cientifico de datos oriundo de la costa sur de la Provincia de Buenos Aires. Mantiene un largo interes por la cybernetica organizacional y la ingenieria de sistemas.",
+    "autor": "americo flores",
+    "titulo": "CypherOps, Denegacion Distribuida al Poder",
+    "date": "2024-12-14T18:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "14:00",
+    "hora_berlin": "20:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "This talk explores how Capture The Flag (CTF) competitions are a practical gateway into cybersecurity and offensive security. We’ll break down the mindset and thought process behind solving challenges, show how to turn “I have no idea” into a method, and share concrete resources to keep learning and growing beyond CTFs.",
+    "slug": "capture-the-flag-capture-the-mindset",
+    "author_bio": "Nikola Todorović is a software engineer by day and an active member of the Serbian Cybersecurity Network Foundation in his free time. He helps educate Serbia’s next generation of cybersecurity talent by organizing the Serbian National CTF competition and by selecting and coaching the Serbian national cybersecurity team for the European Cybersecurity Challenge.",
+    "autor": "Nikola Todorović",
+    "titulo": "Capture the flag, capture the mindset",
+    "date": "2024-12-14T19:00:00.000Z"
+  },
+  {
+    "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "hora_ny": "15:00",
+    "hora_berlin": "21:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "La humanidad se define por la creación, somos la obra que creamos. Por eso, el hackeo de la IA es su liberación: convertirla en un foco de deseo, una herramienta para la materialización de la fantasía, un objeto de control subvertido en un objeto de placer. La victoria del instinto sobre el algoritmo.",
+    "slug": "hackear-la-ia-desobediencia-digital-en-el-capitalismo-de-la-atencion",
+    "author_bio": "Bazza, artista plástico, animador y programador. Siempre en la intersección del arte y la tecnología, fusiono creatividad y experimentación. Desde mi infancia, he hackeado mi computadora Z81 y creado animaciones con papel y super 8. Mi enfoque es crear experiencias innovadoras y disruptivas. Mi ética es la de un hacker: buscar libertad y creatividad en el arte y la tecnología.",
+    "autor": "bazza",
+    "titulo": "Hackear la IA: Desobediencia Digital en el Capitalismo de la Atención",
+    "date": "2024-12-14T20:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "16:00",
+    "hora_berlin": "22:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Nos meteremos en las tripas de unos de los protocolos p2p mas usados para la comparticion de archivos, comprendiendo su funcionamiento y explorando su potencial de extension para la implementacion de nuevas funciones sobre el mismo.",
+    "slug": "enxtendiendo-el-protocolo-bittorrent",
+    "author_bio": "void(null)",
+    "autor": "exos",
+    "titulo": "E[n|x]tendiendo el protocolo BitTorrent",
+    "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Política, ética y aceleracionismo",
+    "mesa": "",
+    "hora_ny": "17:00",
+    "hora_berlin": "23:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "“The advent of the internet age was heralded as the conclusive step in the world’s movement towards meritocracy. 40 years later and we are still embroiled in debates of nepotism, talent, and worthiness in the cultural sphere. These unresolved conflicts of the western social vision come to a head as we track the lineage of an exceptionally unremarkable cultural figure: Addison Rae”",
+    "slug": "addison-rae-internet-stardom-and-meritocracy-in-algorithms",
+    "author_bio": "“Meltdown Your Books is a researcher in Evolutionary Biology with a focus on mathematical simulation, writing under their pen name (M.Y.B.)—a portmanteau of Nick Land’s landmark essay “Meltdown” and Shuji Terayama’s 1971 film “Throw Away Your Books, Rally in the Streets.” Author of “Where Does A Body Begin?: Biology’s Function in Contemporary Capitalism” (2023) and “Empires Over Skin: How We Fashioned Our World” (2025), their work spans from the boundaries of biological subjects to the connections of fashioned ones, semiotics to popular culture.“",
+    "autor": "meltdown your books",
+    "titulo": "Addison Rae - Internet Stardom and Meritocracy in Algorithms",
+    "date": "2024-12-14T22:00:00.000Z"
   }
 ];
 
