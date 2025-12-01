@@ -256,7 +256,8 @@ export const programs = [
     "slug": "53950-s-70552-o-513760-s-69130-o207km",
     "author_bio": "HAVSTRACTO (Chile, 1999) es un artista visual transdisciplinar de la Patagonia. Integra pintura, foto, video, sonido e IA. Su obra explora las tensiones humano-naturaleza, el extractivismo y el cambio climático, diluyendo límites entre lo físico y virtual",
     "autor": "HAVSTRACTO",
-    "titulo": "[53°9′50″ S, 70°55′2″ O /// 51°37′60″ S, 69°13′0″ O]_[207km]"
+    "titulo": "[53°9′50″ S, 70°55′2″ O /// 51°37′60″ S, 69°13′0″ O]_[207km]",
+    "date": "2024-12-14T16:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -409,6 +410,41 @@ export const programs = [
     "titulo": "Habito el lado técnico del activismo político.\r,"
   },
   {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "piso 2",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "Vamos a ver la infraesteuctura necesaria  para efectuar un ataque a un sistema de informacion utilizando,  tacticas tecnicas y procedimientos comunes  pero integrandolas con tacticas en cognitivewarfare asistidas por agentes de inteligencia artificial. Que es mito? Que es meme? Que es una buena herramienta ? Y q es un riesgo?",
+    "slug": "infraesteuctura-ofensiva-guerra-cognitiva-y-memes",
+    "author_bio": "-",
+    "autor": "mini",
+    "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
+    "date": "2024-12-14T21:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "piso 2",
+    "keywords": "",
+    "tipo": [
+      "taller",
+      "charla"
+    ],
+    "resumen": "Esta charla recorre el proceso completo de escribir un exploit para Android partiendo desde cero. No se trata solo del resultado final, sino de cómo entender el sistema, leer vulnerabilidades, montar entornos de prueba y sobrevivir al caos del debugging. A partir del artículo “Escribiendo un exploit para Android y un módulo para MVT”, veremos paso a paso cómo pasar de no saber nada sobre explotación a construir algo funcional, entendiendo qué ocurre “en las tripas” del sistema. Habrá demos, logs reales, fallos, y algunos wtf moments en el camino.",
+    "slug": "de-cero-a-exploit-anatomia-forense-de-un-bug-en-android",
+    "author_bio": "Investigador en seguridad y fundador de ZoqueLabs, un laboratorio de inteligencia de amenazas con raíces en América Latina. Ha trabajado en análisis forense, malware y monitoreo de redes en contextos de derechos humanos. Sus investigaciones combinan hacking, OSINT y análisis técnico profundo, con una mirada política y regional sobre la seguridad digital. Publica regularmente en zoquelabs.xyz sobre temas de explotación, spyware e inteligencia de amenazas.",
+    "autor": "And3 (ZoqueLabs)",
+    "titulo": "De cero a exploit: anatomía forense de un bug en Android",
+    "date": "2024-12-14T22:00:00.000Z"
+  },
+  {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
@@ -477,24 +513,6 @@ export const programs = [
     "date": "2024-12-14T23:00:00.000Z"
   },
   {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "piso 2",
-    "keywords": "",
-    "tipo": [
-      "taller",
-      "charla"
-    ],
-    "resumen": "Esta charla recorre el proceso completo de escribir un exploit para Android partiendo desde cero. No se trata solo del resultado final, sino de cómo entender el sistema, leer vulnerabilidades, montar entornos de prueba y sobrevivir al caos del debugging. A partir del artículo “Escribiendo un exploit para Android y un módulo para MVT”, veremos paso a paso cómo pasar de no saber nada sobre explotación a construir algo funcional, entendiendo qué ocurre “en las tripas” del sistema. Habrá demos, logs reales, fallos, y algunos wtf moments en el camino.",
-    "slug": "de-cero-a-exploit-anatomia-forense-de-un-bug-en-android",
-    "author_bio": "Investigador en seguridad y fundador de ZoqueLabs, un laboratorio de inteligencia de amenazas con raíces en América Latina. Ha trabajado en análisis forense, malware y monitoreo de redes en contextos de derechos humanos. Sus investigaciones combinan hacking, OSINT y análisis técnico profundo, con una mirada política y regional sobre la seguridad digital. Publica regularmente en zoquelabs.xyz sobre temas de explotación, spyware e inteligencia de amenazas.",
-    "autor": "And3 (ZoqueLabs)",
-    "titulo": "De cero a exploit: anatomía forense de un bug en Android",
-    "date": "2024-12-14T22:00:00.000Z"
-  },
-  {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
@@ -509,23 +527,6 @@ export const programs = [
     "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
     "autor": "Nulo",
     "titulo": "El presidente adicto a Twitter",
-    "date": "2024-12-14T21:00:00.000Z"
-  },
-  {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "piso 2",
-    "keywords": "",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "Vamos a ver la infraesteuctura necesaria  para efectuar un ataque a un sistema de informacion utilizando,  tacticas tecnicas y procedimientos comunes  pero integrandolas con tacticas en cognitivewarfare asistidas por agentes de inteligencia artificial. Que es mito? Que es meme? Que es una buena herramienta ? Y q es un riesgo?",
-    "slug": "infraesteuctura-ofensiva-guerra-cognitiva-y-memes",
-    "author_bio": "-",
-    "autor": "mini",
-    "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
     "date": "2024-12-14T21:00:00.000Z"
   },
   {
