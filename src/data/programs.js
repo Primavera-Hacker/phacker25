@@ -3,11 +3,29 @@
 
 export const programs = [
   {
+    "eje": "Hardware, tácticas y materialidad",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "piso 2",
+    "keywords": "servidores, fanzine,",
+    "tipo": [
+      "charla",
+      "taller"
+    ],
+    "resumen": "Charla que explora cómo habitar otra internet. Responde a qué es un servidor y cómo montar uno autogestionado con hardware reutilizado. Se presentarán alternativas libres a Google/Meta (ej. Nextcloud) para crear redes colaborativas y almacenar archivos y fanzines.",
+    "slug": "hazlo-tu-mismx-herramientas-para-montar-tu-propio-servidor-para-archivo-y-fanzines",
+    "author_bio": "Soy Yuko, Edito 404 fanzine (que se distribuye en formato fisico), Formo parte de Fanzine Club (www.fanzineclub.com), Hago ruido y voz en WwW (www.wvvw.bandcamp.com)Trabajo en el area de tecnologia, administradora de servidores UNIX.",
+    "autor": "Yuko",
+    "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines.",
+    "date": "2024-12-13T22:00:00.000Z"
+  },
+  {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
-    "sala": "subte",
+    "sala": "piso 2",
     "keywords": "cognicion, algoritmos, rrss",
     "tipo": [
       "charla"
@@ -17,14 +35,14 @@ export const programs = [
     "author_bio": "Psicóloga, investigadora y artista argentina, con foco interdisciplinar, articula teoría crítica, y sensibilidad contemporánea, abordando los cruces entre percepción, poder y tecnologías digitales que se despliegan en los bordes entre lo simbólico y lo político. Co-directora de la diplomatura en inteligencia artificial aplicada a las artes multimediales en la UNA. (Universidad Nacional de las Artes)",
     "autor": "Isha Kim",
     "titulo": "Guerra Cognitiva: subjetividad y algoritmos",
-    "date": "2024-12-13T22:00:00.000Z"
+    "date": "2024-12-13T23:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
-    "sala": "subte",
+    "sala": "piso 2",
     "keywords": "Tecnopolitica",
     "tipo": [
       "charla"
@@ -34,14 +52,14 @@ export const programs = [
     "author_bio": "saico",
     "autor": "Saico",
     "titulo": "Dracula y Psyops",
-    "date": "2024-12-13T23:00:00.000Z"
+    "date": "2024-12-14T00:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
-    "sala": "subte",
+    "sala": "piso 2",
     "keywords": "identidad, disciplina, risas",
     "tipo": [
       "charla"
@@ -87,24 +105,6 @@ export const programs = [
     "autor": "Nicolás Briceño",
     "titulo": "Taller de programación de visuales raspberry pico",
     "date": "2024-12-13T22:00:00.000Z"
-  },
-  {
-    "eje": "Hardware, tácticas y materialidad",
-    "mesa": "",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "piso 1",
-    "keywords": "servidores, fanzine,",
-    "tipo": [
-      "charla",
-      "taller"
-    ],
-    "resumen": "Charla que explora cómo habitar otra internet. Responde a qué es un servidor y cómo montar uno autogestionado con hardware reutilizado. Se presentarán alternativas libres a Google/Meta (ej. Nextcloud) para crear redes colaborativas y almacenar archivos y fanzines.",
-    "slug": "hazlo-tu-mismx-herramientas-para-montar-tu-propio-servidor-para-archivo-y-fanzines",
-    "author_bio": "Soy Yuko, Edito 404 fanzine (que se distribuye en formato fisico), Formo parte de Fanzine Club (www.fanzineclub.com), Hago ruido y voz en WwW (www.wvvw.bandcamp.com)Trabajo en el area de tecnologia, administradora de servidores UNIX.",
-    "autor": "Yuko",
-    "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines.",
-    "date": "2024-12-14T00:00:00.000Z"
   },
   {
     "eje": "Arte y estética computacional",
@@ -223,23 +223,6 @@ export const programs = [
     "author_bio": "Aarón Montoya: Profesor (UDP), doctorando (USACH) y artista digital. Trabaja con código y ruido, explorando la web bajo el alias montoyamoraga. Su obra está activa todo el año, excepto en febrero.",
     "autor": "Aarón Montoya",
     "titulo": "Herramientas para decir que no",
-    "date": "2024-12-14T16:00:00.000Z"
-  },
-  {
-    "eje": "Arte y estética computacional",
-    "mesa": "Mesa 2: Procesos tecnicos y derivas audiovisuales",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "subte",
-    "keywords": "vigilancia, tracking, opencv",
-    "tipo": [
-      "mesa"
-    ],
-    "resumen": "Demo de una instalación interactiva en Python que reflexiona sobre la vigilancia digital. Usa cámara y OpenCV para hacer tracking facial en vivo, asignando niveles de amenaza a los asistentes. Se mostrará el código y el proceso de construcción",
-    "slug": "quien-vigila-al-vigilante",
-    "author_bio": "César Flores [@txusillo]: Ingeniero de Software y Artista de Nuevos Medios. Integra arte y tecnología, creando obras interactivas. Explora la ambivalencia de la tecnología: su potencial liberador versus la vigilancia y el control.",
-    "autor": "César Flores",
-    "titulo": "¿Quién vigila al vigilante?",
     "date": "2024-12-14T16:00:00.000Z"
   },
   {
@@ -423,21 +406,7 @@ export const programs = [
     "slug": "habito-el-lado-tecnico-del-activismo-politico",
     "author_bio": "",
     "autor": "",
-    "titulo": "Habito el lado técnico del activismo político."
-  },
-  {
-    "eje": "",
-    "mesa": "",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "",
-    "keywords": "",
-    "tipo": [],
-    "resumen": "",
-    "slug": "la",
-    "author_bio": "",
-    "autor": "",
-    "titulo": ","
+    "titulo": "Habito el lado técnico del activismo político.\r,"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -526,7 +495,7 @@ export const programs = [
     "date": "2024-12-14T22:00:00.000Z"
   },
   {
-    "eje": "Hacking y seguridad ofensiva",
+    "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
