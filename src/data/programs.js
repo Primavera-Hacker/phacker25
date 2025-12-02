@@ -362,23 +362,6 @@ export const programs = [
     "date": "2025-12-06T18:00:00.000Z"
   },
   {
-    "eje": "Hacking y seguridad ofensiva",
-    "mesa": "",
-    "hora_ny": "",
-    "hora_berlin": "",
-    "sala": "piso 1",
-    "keywords": "DMARC, hacking",
-    "tipo": [
-      "charla"
-    ],
-    "resumen": "anti enseña como se hackea un dominio sin DMARC y como hacerse pasar por el gobierno",
-    "slug": "hackeando-dmarc",
-    "author_bio": "anti hackea desde los 3 añitos, comenzó a usar linux el 2020 y no se ha bajado de eso; actualmente hackea en varias empresas y es cofundador de su propia startup de seguridad ofensiva e infraestructura.",
-    "autor": "4nt1",
-    "titulo": "Hackeando DMARC",
-    "date": "2025-12-06T18:00:00.000Z"
-  },
-  {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
@@ -501,6 +484,23 @@ export const programs = [
     "hora_ny": "",
     "hora_berlin": "",
     "sala": "subte",
+    "keywords": "DMARC, hacking",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "anti enseña como se hackea un dominio sin DMARC y como hacerse pasar por el gobierno",
+    "slug": "hackeando-dmarc",
+    "author_bio": "anti hackea desde los 3 añitos, comenzó a usar linux el 2020 y no se ha bajado de eso; actualmente hackea en varias empresas y es cofundador de su propia startup de seguridad ofensiva e infraestructura.",
+    "autor": "4nt1",
+    "titulo": "Hackeando DMARC",
+    "date": "2025-12-06T20:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "subte",
     "keywords": "supply-chain attack, defensa, analisis de riesgos",
     "tipo": [
       "charla"
@@ -510,14 +510,14 @@ export const programs = [
     "author_bio": "Matías: Especialista en seguridad informática argentino y experto en code review. Disfruta los CTF y el software libre, al que contribuye. Usa y mantiene proyectos FOSS, desconfiando de soluciones propietarias.",
     "autor": "Matías Lang",
     "titulo": "Real-life supply-chain attacks",
-    "date": "2025-12-06T23:00:00.000Z"
+    "date": "2025-12-06T21:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
-    "sala": "subte",
+    "sala": "piso 1",
     "keywords": "twiter, presidente, phishing",
     "tipo": [
       "charla"
@@ -527,7 +527,7 @@ export const programs = [
     "author_bio": "Nulo es un programador argentino que cree que el internet es real.  Le interesa el análisis de datos públicos con fines políticos, y con ese fin armó milei.nulo.lol, failbondi.fail y otros proyectos dateros.",
     "autor": "Nulo",
     "titulo": "El presidente adicto a Twitter",
-    "date": "2025-12-06T21:00:00.000Z"
+    "date": "2025-12-06T19:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
