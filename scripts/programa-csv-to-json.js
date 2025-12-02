@@ -35,19 +35,19 @@ function createDateFromDiaAndHorario(dia, horario) {
   }
 
   // Definir las fechas del evento
-  // Viernes 13 de diciembre de 2024
-  // Sábado 14 de diciembre de 2024
-  const year = 2024;
+  // Viernes 5 de diciembre de 2025
+  // Sábado 6 de diciembre de 2025
+  const year = 2025;
   const month = 11; // diciembre (0-indexed, entonces 11 = diciembre)
 
   let day;
   if (dia.toLowerCase().includes("viernes")) {
-    day = 13;
+    day = 5;
   } else if (
     dia.toLowerCase().includes("sabado") ||
     dia.toLowerCase().includes("sábado")
   ) {
-    day = 14;
+    day = 6;
   } else {
     // Si no es viernes ni sábado, retornar null
     return null;
