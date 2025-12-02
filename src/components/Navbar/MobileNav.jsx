@@ -10,6 +10,7 @@ const MobileNav = () => {
       <Link to={paths.evento}>evento</Link>
       <Link to={paths.programa}>programa</Link>
       <Link to={paths.manifiesto}>manifiesto</Link>
+      <a href="https://inscripcion.phacker.org/">Inscripción</a>
     </nav>
   );
 };

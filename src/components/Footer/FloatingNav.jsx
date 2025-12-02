@@ -27,6 +27,10 @@ export default function FloatingNav({ menuOpen, setMenuOpen }) {
         X
       </button>
       <nav className={css.nav}>
+        <a className={css.navLink} href="https://inscripcion.phacker.org/">
+          Inscripción
+        </a>
+
         <Link className={cn(css.navLink)} to={getLocalizedPath(paths.evento)}>
           {evento}
         </Link>

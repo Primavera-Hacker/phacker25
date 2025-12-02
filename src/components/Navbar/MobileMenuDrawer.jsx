@@ -35,6 +35,13 @@ const MobileMenuDrawer = ({ isOpen, closeDrawer }) => {
         >
           <LogoPrimaveraHacker />
         </button>
+        <a
+          className={cn("text-link-primary", css.primaryLink)}
+          href="https://inscripcion.phacker.org/"
+        >
+          Inscripción
+        </a>
+
         <Link
           onClick={closeDrawer}
           to={getLocalizedPath(paths.evento)}
