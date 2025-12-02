@@ -18,7 +18,7 @@ export const programs = [
     "author_bio": "Soy Yuko, Edito 404 fanzine (que se distribuye en formato fisico), Formo parte de Fanzine Club (www.fanzineclub.com), Hago ruido y voz en WwW (www.wvvw.bandcamp.com)Trabajo en el area de tecnologia, administradora de servidores UNIX.",
     "autor": "Yuko",
     "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines.",
-    "date": "2025-12-05T22:00:00.000Z"
+    "date": "2025-12-05T21:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -35,7 +35,7 @@ export const programs = [
     "author_bio": "Psicóloga, investigadora y artista argentina, con foco interdisciplinar, articula teoría crítica, y sensibilidad contemporánea, abordando los cruces entre percepción, poder y tecnologías digitales que se despliegan en los bordes entre lo simbólico y lo político. Co-directora de la diplomatura en inteligencia artificial aplicada a las artes multimediales en la UNA. (Universidad Nacional de las Artes)",
     "autor": "Isha Kim",
     "titulo": "Guerra Cognitiva: subjetividad y algoritmos",
-    "date": "2025-12-05T23:00:00.000Z"
+    "date": "2025-12-05T22:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -52,7 +52,7 @@ export const programs = [
     "author_bio": "saico",
     "autor": "Saico",
     "titulo": "Dracula y Psyops",
-    "date": "2025-12-06T00:00:00.000Z"
+    "date": "2025-12-05T23:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -69,7 +69,7 @@ export const programs = [
     "author_bio": "Estudió cine, actuación, dirección de arte y trabaja como editor/animador. Su arte combina todo con dibujo y pintura. Crea personajes y contenido online/en vivo, centrado en el ridículo, el clown y la clave trash.",
     "autor": "Nacho Joshas",
     "titulo": "La estupidez como camino",
-    "date": "2025-12-06T01:00:00.000Z"
+    "date": "2025-12-06T00:00:00.000Z"
   },
   {
     "eje": "Hardware, tácticas y materialidad",
