@@ -7,7 +7,7 @@ export const programs = [
     "mesa": "",
     "hora_ny": "",
     "hora_berlin": "",
-    "sala": "piso 2",
+    "sala": "piso 1",
     "keywords": "servidores, fanzine,",
     "tipo": [
       "charla",
@@ -18,7 +18,7 @@ export const programs = [
     "author_bio": "Soy Yuko, Edito 404 fanzine (que se distribuye en formato fisico), Formo parte de Fanzine Club (www.fanzineclub.com), Hago ruido y voz en WwW (www.wvvw.bandcamp.com)Trabajo en el area de tecnologia, administradora de servidores UNIX.",
     "autor": "Yuko",
     "titulo": "HAZLO TU MISMX: Herramientas para montar tu propio servidor para archivo y fanzines.",
-    "date": "2025-12-05T21:00:00.000Z"
+    "date": "2025-12-06T00:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
