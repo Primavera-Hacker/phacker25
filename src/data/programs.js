@@ -407,7 +407,7 @@ export const programs = [
     "author_bio": "-",
     "autor": "mini",
     "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
-    "date": "2025-12-06T21:00:00.000Z"
+    "date": "2025-12-06T19:30:00.000Z"
   },
   {
     "eje": "Hacking y seguridad ofensiva",
@@ -425,7 +425,7 @@ export const programs = [
     "author_bio": "Investigador en seguridad y fundador de ZoqueLabs, un laboratorio de inteligencia de amenazas con raíces en América Latina. Ha trabajado en análisis forense, malware y monitoreo de redes en contextos de derechos humanos. Sus investigaciones combinan hacking, OSINT y análisis técnico profundo, con una mirada política y regional sobre la seguridad digital. Publica regularmente en zoquelabs.xyz sobre temas de explotación, spyware e inteligencia de amenazas.",
     "autor": "And3 (ZoqueLabs)",
     "titulo": "De cero a exploit: anatomía forense de un bug en Android",
-    "date": "2025-12-06T22:00:00.000Z"
+    "date": "2025-12-06T21:00:00.000Z"
   },
   {
     "eje": "Política, ética y aceleracionismo",
@@ -442,6 +442,21 @@ export const programs = [
     "author_bio": "Ethereum Foundation researcher, founder of Bordel Hackerspace in Prague. A hacker active in decentralized systems, hardware and art (proofof.cat), embracing FOSS and living 5+ years unbanked.",
     "autor": "Mario",
     "titulo": "Applying cryptoanarchy in individual and communal sovereignty",
+    "date": "2025-12-06T22:00:00.000Z"
+  },
+  {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "",
+    "hora_berlin": "",
+    "sala": "piso 2",
+    "keywords": "",
+    "tipo": [],
+    "resumen": "An Introduction to Logos, the future of FreedomBuilding truly censorship-resistant applications requires a decentralised technology stack that is private from the ground up. This talk introduces Logos, a stack that unifies anonymous networking, decentralized storage, and a private, multi-chain network into a single coherent system. Logos' architecture shields every critical layer — from consensus and stake to block proposals, transactions, and smart contract execution. Logos creates a secure foundation to restore user privacy and freedom.",
+    "slug": "an-introduction-to-logos",
+    "author_bio": "",
+    "autor": "Jarrad Hope",
+    "titulo": "An Introduction to Logos",
     "date": "2025-12-06T23:00:00.000Z"
   },
   {
