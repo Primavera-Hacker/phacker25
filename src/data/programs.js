@@ -402,11 +402,11 @@ export const programs = [
     "tipo": [
       "charla"
     ],
-    "resumen": "Vamos a ver la infraesteuctura necesaria  para efectuar un ataque a un sistema de informacion utilizando,  tacticas tecnicas y procedimientos comunes  pero integrandolas con tacticas en cognitivewarfare asistidas por agentes de inteligencia artificial. Que es mito? Que es meme? Que es una buena herramienta ? Y q es un riesgo?",
-    "slug": "infraesteuctura-ofensiva-guerra-cognitiva-y-memes",
+    "resumen": "Vamos a ver la infraestructura necesaria para efectuar un ataque a un sistema de  información o cognitivo utilizando tácticas, técnicas y procedimientos comunes,  pero integrándolos con tácticas de cognitive warfare asistidas por agentes de  inteligencia artificial. ¿Qué es mito? ¿Qué es meme? ¿Qué es una buena herramienta? ¿Y qué es un riesgo?",
+    "slug": "infraestructura-ofensiva-guerra-cognitiva-y-memes",
     "author_bio": "-",
     "autor": "mini",
-    "titulo": "Infraesteuctura ofensiva, guerra cognitiva y memes",
+    "titulo": "Infraestructura ofensiva, guerra cognitiva y memes",
     "date": "2025-12-06T19:30:00.000Z"
   },
   {
