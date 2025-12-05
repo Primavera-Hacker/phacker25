@@ -545,6 +545,23 @@ export const programs = [
     "date": "2025-12-06T19:00:00.000Z"
   },
   {
+    "eje": "Hacking y seguridad ofensiva",
+    "mesa": "",
+    "hora_ny": "11:00",
+    "hora_berlin": "17:00",
+    "sala": "online",
+    "keywords": "",
+    "tipo": [
+      "charla"
+    ],
+    "resumen": "This session is a quick, realistic tour of how phones get unlocked today. Basic concepts and terminology will be introduced, followed by a look at some commercial tools in the space, and some of their technical details. We'll also talk about the defenses we know about, why some of them fail, and how we ended up with the current ecosystem. We’ll also mention prices and availability, to highlight how cheap some of these tools have become and how their availability is helped by the absence of regulation.",
+    "slug": "how-phones-get-unlocked-a-quick-guide-to-todays-capabilities",
+    "author_bio": "Giulio is a researcher and co-founder of Osservatorio Nessuno, an Italian non-profit that runs Tor nodes and supports activists with privacy-focused technical work. The group also conducts spyware-related research, develops open-source security tools, and engages in advocacy around surveillance and digital rights.",
+    "autor": "giulio",
+    "titulo": "How phones get unlocked: a quick guide to today’s capabilities",
+    "date": "2025-12-06T16:00:00.000Z"
+  },
+  {
     "eje": "Política, ética y aceleracionismo",
     "mesa": "",
     "hora_ny": "12:00",
